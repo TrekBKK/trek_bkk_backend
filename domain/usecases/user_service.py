@@ -1,13 +1,12 @@
-from typing import List
-from fastapi import Depends
 from pymongo import MongoClient
-
-from adapters import get_mongo_client
 from domain.models import User
 
 
-def get_users(db: MongoClient = Depends(get_mongo_client)) -> List[User]:
-    # Use the MongoDB connection to retrieve users from the database
-    users = db.User.find()
-    # Convert the database results to User models
-    return ""
+def get_users(user: User, client: MongoClient):
+    db = client["trekDB"]
+    collection = db["user"]
+    filter = {"name": user.name, "email": user.email}
+    update = {"$set": {"Perference": {}, "favorite_route": [], "places_history": {}}}
+
+    a = collection.find_one_and_update(filter, update, upsert=True)
+    return a
