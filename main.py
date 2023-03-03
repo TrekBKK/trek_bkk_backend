@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from routes import user_router
+from fastapi.staticfiles import StaticFiles
+from routes import user_router, generator_router
 from fastapi.middleware.cors import CORSMiddleware
 
 
@@ -15,9 +16,11 @@ def create_app():
         allow_methods=["*"],
         allow_headers=["*"],
     )
+    fast_app.mount('/static', StaticFiles(directory='static'), name='static')
     return fast_app
 
 
 app = create_app()
 # uvicorn.run(app, host="0.0.0.0", port=8000)
 app.include_router(user_router)
+app.include_router(generator_router)
