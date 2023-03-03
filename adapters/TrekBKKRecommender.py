@@ -5,16 +5,38 @@ from shapely import Point
 from geopy import distance
 
 class TrekBKKRecommender:
-    def __init__(self, start_point, end_point, d_p2p, n_stops) -> None:
+    def __init__(
+            self, 
+            start_point: Point, end_point: Point, 
+            d_p2p: int, n_stops: int) -> None:
         self.start_point = start_point
         self.end_point = end_point
         self.d_p2p = d_p2p
         self.n_stops = n_stops
+        self.gdf = None
 
-    def set_gdf(self, gdf):
+    def set_gdf(self, gdf: gpd.GeoDataFrame):
         self.gdf = gdf
 
-    def data_to_gdf(self, POI_id, lat, lon, rating, n_visits):
+    def get_gdf(self):
+        return self.gdf
+
+    def get_mock_data(self):
+        poi_df = pd.read_csv('static/mock_data/Mock_filtered_POIs.csv')
+        self.gdf = gpd.GeoDataFrame(
+            poi_df,
+            geometry=gpd.points_from_xy(
+                poi_df['Longitude'],
+                poi_df['Latitude']
+            ),
+            crs=4326
+        )
+
+    def data_to_gdf(self, 
+                    POI_id: str, 
+                    lat: float, lon: float, 
+                    rating: int, 
+                    n_visits: int | None = None):
         gdf = gpd.GeoDataFrame(
             {
                 'POI_id': POI_id,
@@ -28,6 +50,15 @@ class TrekBKKRecommender:
             crs=4326
         )
         return gdf
+    
+    def print_detail(self):
+        print('---------Recommender Detail----------')
+        print(f'start point:\t{self.start_point.coords[0]}')
+        print(f'end point:\t{self.end_point.coords[0]}')
+        print(f'number of stops:\t{self.n_stops}')
+        print()
+        print('======== first 5 record of filtered places ========')
+        print(self.gdf.head())
 
     def recommend(self):
         stops_idx = []
