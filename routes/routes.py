@@ -3,9 +3,9 @@ from fastapi import APIRouter
 from domain.usecases import generator_service
 
 
-router = APIRouter(prefix='/generate')
+router = APIRouter(prefix='/route')
 
-@router.get('/')
+@router.get('/generate')
 def generate_route(
     start_lat: float = 0, start_lng: float = 0,
     end_lat: float = 1, end_lng: float = 1,

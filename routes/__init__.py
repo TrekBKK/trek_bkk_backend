@@ -1,2 +1,2 @@
 from .users import router as user_router
-from .generator import router as generator_router
+from .routes import router as route_router
