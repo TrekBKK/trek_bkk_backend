@@ -1,3 +1,5 @@
+from bson import ObjectId
+from fastapi import HTTPException
 from pymongo import MongoClient
 from domain.models import User
 
@@ -5,8 +7,16 @@ from domain.models import User
 def get_users(user: User, client: MongoClient):
     db = client["trekDB"]
     collection = db["user"]
-    filter = {"name": user.name, "email": user.email}
-    update = {"$set": {"Perference": {}, "favorite_route": [], "places_history": {}}}
+    try:
+        _user = collection.find_one({"name": user.name, "email": user.email})
+        if _user:
+            return _user
 
-    a = collection.find_one_and_update(filter, update, upsert=True)
-    return a
+        userData = {"name": user.name, "email": user.email, "perference": {
+        }, "favorite_route": [], "places_history": {}}
+        _id = collection.insert_one(userData).inserted_id
+        userData["_id"] = _id
+        return userData
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
