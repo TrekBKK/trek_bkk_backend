@@ -1,0 +1,2741 @@
+{
+    "places": [{
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7393079, "lng": 100.5105542 },
+                "viewport": {
+                    "northeast": { "lat": 13.7406659302915, "lng": 100.5119072802915 },
+                    "southwest": { "lat": 13.7379679697085, "lng": 100.5092093197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Easae Coffee Shop",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111668136632256692727\">Kwanruen Channel</a>"
+                ],
+                "photo_reference": "AUjq9jlHGJ3Q8AvdKB1l-giW0eX2DY4IiGANZ_QaQYtWx0RjwWTCiR-x1FY_43fhu3hSu8BcmLdt-Wx29aW0XIjBrpEudmNqv7SHDd9Rj_-xwkeSh6TnPwyVHHT7Tx2HREexieb8yC92ynCVa4pxhMpAB4ey1QxJTunB-d50wzaAws7ip5JZ",
+                "width": 3024
+            }],
+            "place_id": "ChIJ5dv-CSGZ4jAR2AAgkkWSfxs",
+            "plus_code": {
+                "compound_code": "PGQ6+P6 Bangkok, Thailand",
+                "global_code": "7P52PGQ6+P6"
+            },
+            "price_level": 1,
+            "rating": 4.2,
+            "reference": "ChIJ5dv-CSGZ4jAR2AAgkkWSfxs",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "restaurant",
+                "point_of_interest",
+                "bakery",
+                "food",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 273,
+            "vicinity": "103, 105 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7409517, "lng": 100.5110399 },
+                "viewport": {
+                    "northeast": { "lat": 13.7423441302915, "lng": 100.5124205802915 },
+                    "southwest": { "lat": 13.7396461697085, "lng": 100.5097226197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Nornyaowarat Hotel",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3623,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110045157260176093192\">Nornyaowarat Hotel</a>"
+                ],
+                "photo_reference": "AUjq9jk8SpGq1BCJPOgnf5wju04lpQTQVj9BC0kYLvE3ayOzLu_gjDPhUM8SkAeR_zetvyPWCsuUxS_CTCZUZ_r9qTwgMz9ab9vwm4gGTQ-jSQc6YOwXaHTXauRLOo07rKI8s0bQD9jDLM-qVPJzaJLvwwYHE_912me6P1yrtfiXHatOSad4",
+                "width": 5435
+            }],
+            "place_id": "ChIJMRRpYSGZ4jAR_CPjlM4Z5Js",
+            "plus_code": {
+                "compound_code": "PGR6+9C Bangkok, Thailand",
+                "global_code": "7P52PGR6+9C"
+            },
+            "rating": 4.4,
+            "reference": "ChIJMRRpYSGZ4jAR_CPjlM4Z5Js",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "lodging",
+                "point_of_interest",
+                "food",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 288,
+            "vicinity": "6-8,10,12 Padungdao, \u0e41\u0e02\u0e27\u0e07\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e27\u0e07\u0e28\u0e4c, \u0e40\u0e02\u0e15\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e27\u0e07\u0e28\u0e4c"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7401022, "lng": 100.5122168 },
+                "viewport": {
+                    "northeast": { "lat": 13.7414647802915, "lng": 100.5136140802915 },
+                    "southwest": { "lat": 13.73876681970849, "lng": 100.5109161197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Kan Kee Nam Tao Thong (2444 B.E.) \u53cc\u846b\u82a6\u51c9\u8336 (1901)",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102604773926513374499\">Ratchapas Ant</a>"
+                ],
+                "photo_reference": "AUjq9jncvm_WfdJrilsLF9AM894vLO8XspKIaHCiNWFXqehn0eS8JfSbUw2SCZA7PABQSMI015IIj4isCvLqnuS87mkT9sP0PMBDO8KxutnZQF_f6ds2EHEQgxHrE0oR4OsXo0HC4GwHL8rKaVfz69pvQXiZdhTfPNXNDlRaFVeutpmRQwWs",
+                "width": 3024
+            }],
+            "place_id": "ChIJfYq6Es5gHTERPtSpeRJh1k4",
+            "plus_code": {
+                "compound_code": "PGR6+2V Bangkok, Thailand",
+                "global_code": "7P52PGR6+2V"
+            },
+            "price_level": 1,
+            "rating": 4.8,
+            "reference": "ChIJfYq6Es5gHTERPtSpeRJh1k4",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ],
+            "user_ratings_total": 574,
+            "vicinity": "670 Charoen Krung Road, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7391461, "lng": 100.5107265 },
+                "viewport": {
+                    "northeast": { "lat": 13.7405177802915, "lng": 100.5120862302915 },
+                    "southwest": { "lat": 13.7378198197085, "lng": 100.5093882697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "CHATA Specialty Coffee",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104575792353578961348\">Bubble Bubble</a>"
+                ],
+                "photo_reference": "AUjq9jkE-DbJSrWQFC12HwR4-P-bzjrky7nDR6W3nUjqCyMe40GkYfba1EH6mXnRxUZg5KMhgNcbJooOYD4UpWgMS8N276RpAHjflsTJ_0_4ydxOACR9KGcvxrXeEixaZfu45hZ7Im_Oh0oSdKhwdSB1t8Efw6aBYHPGqyD6CsMkxlV6tai3",
+                "width": 4032
+            }],
+            "place_id": "ChIJfSGaGiGZ4jARl6xb0Ghk7pQ",
+            "plus_code": {
+                "compound_code": "PGQ6+M7 Bangkok, Thailand",
+                "global_code": "7P52PGQ6+M7"
+            },
+            "price_level": 2,
+            "rating": 4.3,
+            "reference": "ChIJfSGaGiGZ4jARl6xb0Ghk7pQ",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 629,
+            "vicinity": "98 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7415996, "lng": 100.5135579 },
+                "viewport": {
+                    "northeast": { "lat": 13.7430443302915, "lng": 100.5147657302915 },
+                    "southwest": { "lat": 13.7403463697085, "lng": 100.5120677697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Happy Espresso",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112196380987719407085\">Andr\u00e9 B.</a>"
+                ],
+                "photo_reference": "AUjq9jlFBiSxKEoXagNFrbmjHMy6bvJkm7dPWG9b4cp9AsahWLrTgSGXDLooHbYReXRXIWhFEnJXBtIvuV7yIJ3WlGpAntXSaAxnOg_rONvFBOMl6s3LpL_oV5L0YMvaf67sVDphaUQO9honBmRuT-A85ZYjhFmHX6oNsNQaFnHZlprwb7L-",
+                "width": 3024
+            }],
+            "place_id": "ChIJ8xfnGiSZ4jARONCvKlEL9Yo",
+            "plus_code": {
+                "compound_code": "PGR7+JC Bangkok, Thailand",
+                "global_code": "7P52PGR7+JC"
+            },
+            "price_level": 1,
+            "rating": 4.6,
+            "reference": "ChIJ8xfnGiSZ4jARONCvKlEL9Yo",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "store", "establishment"],
+            "user_ratings_total": 194,
+            "vicinity": "295, 297 Thanon Mittraphan, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": { "lat": 13.739893, "lng": 100.5139909 },
+                "viewport": {
+                    "northeast": { "lat": 13.7412321302915, "lng": 100.5153735302915 },
+                    "southwest": { "lat": 13.7385341697085, "lng": 100.5126755697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Nahim Cafe",
+            "permanently_closed": true,
+            "photos": [{
+                "height": 1365,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117300220507007892505\">Nahim Cafe</a>"
+                ],
+                "photo_reference": "AUjq9jmqwfq9LCqEPbdCFSFZu4QvMayqpsG7N4N3uold3MJRuHgbolDom-BP1bY9k8te9r6W7Ik003KVno-5RB1LTYY2JW0xZwFNCGGCFsMtxjrkMKSj1EvBleF2JKP_8MOuusQqtlL6A-668dfgusCP1mTTNymZSDi42eb7Qg7qNHnHii_W",
+                "width": 2048
+            }],
+            "place_id": "ChIJRc8HvyaZ4jARndWoD-gLBOM",
+            "plus_code": {
+                "compound_code": "PGQ7+XH Bangkok, Thailand",
+                "global_code": "7P52PGQ7+XH"
+            },
+            "price_level": 2,
+            "rating": 4.2,
+            "reference": "ChIJRc8HvyaZ4jARndWoD-gLBOM",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 321,
+            "vicinity": "78 \u0e0b\u0e2d\u0e22 \u0e19\u0e32\u0e19\u0e32, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7392483, "lng": 100.5139482 },
+                "viewport": {
+                    "northeast": { "lat": 13.7405596802915, "lng": 100.5152646302915 },
+                    "southwest": { "lat": 13.7378617197085, "lng": 100.5125666697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "103 \u2013 Bed and Brews",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 2268,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101269083476443766219\">Unexpert</a>"
+                ],
+                "photo_reference": "AUjq9jnku4_LMPNtYPt1uO_gYxdupjeXzf3681gPdvlUKJ2px1aMmQf3X3P1vV7Q7kN2pGV9uILWKQOQ_pv60W8ozXHL2uYMZaWdN2EPNyhdZ8ngiKtkHJS30YpkkiN3wolDZCrQpGqXw0Y1x-qAr_phPvGx-uhl-HMdUZBn9zJv8i0T9tLA",
+                "width": 4032
+            }],
+            "place_id": "ChIJYwfSwyaZ4jAR5FxFtAUlgtI",
+            "plus_code": {
+                "compound_code": "PGQ7+MH Bangkok, Thailand",
+                "global_code": "7P52PGQ7+MH"
+            },
+            "price_level": 2,
+            "rating": 4.3,
+            "reference": "ChIJYwfSwyaZ4jAR5FxFtAUlgtI",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "lodging",
+                "bar",
+                "point_of_interest",
+                "food",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 339,
+            "vicinity": "103 Thanon Rama IV, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7406307, "lng": 100.509181 },
+                "viewport": {
+                    "northeast": { "lat": 13.7420239302915, "lng": 100.5105504802915 },
+                    "southwest": { "lat": 13.7393259697085, "lng": 100.5078525197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Double Dogs Tearoom",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 3472,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113976113570928806187\">Ildar Kamaliev</a>"
+                ],
+                "photo_reference": "AUjq9jkrxdwJl-nRHZiPQqHYE1lj7nUS5Rq3glg3UgaUH1tUebB3iLiMOM5lHYwXx3rmPpaKWo_BszPppP3OX9IMvaIbYMfvm88jTAWeQEt7dnZ82soW_47Fy3_o46qFfoaHl0u1e7Q06t9yRgk6JDKyYu7WtrgVaL8TQRpCoB9R-W_oWcNb",
+                "width": 4640
+            }],
+            "place_id": "ChIJH79CmBiZ4jARMdjLCASWygc",
+            "plus_code": {
+                "compound_code": "PGR5+7M Bangkok, Thailand",
+                "global_code": "7P52PGR5+7M"
+            },
+            "rating": 4.5,
+            "reference": "ChIJH79CmBiZ4jARMdjLCASWygc",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 281,
+            "vicinity": "406 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Chakkrawat, Khet Samphanthawong"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": { "lat": 13.739971, "lng": 100.5112703 },
+                "viewport": {
+                    "northeast": { "lat": 13.7413218302915, "lng": 100.5125843802915 },
+                    "southwest": { "lat": 13.7386238697085, "lng": 100.5098864197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Texas all cafe",
+            "permanently_closed": true,
+            "photos": [{
+                "height": 4128,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108770000260901110885\">Texas all cafe</a>"
+                ],
+                "photo_reference": "AUjq9jnZfG-sRbCu4doB8CgQMbOVbPQpdmKPnZxuHq3kgWyLeTya-CKKcGbZ3pj55fTv5nYU0Okte7ac526us4REs_DVhloJU-AzqsqeF2veBjIT8ipIpnKVa6Zqz_Pe8xRQ28pktlxaHYa0tCINuVdPNwCK5vlxROCcTtvMD1e4eoWqr3S4",
+                "width": 3096
+            }],
+            "place_id": "ChIJLWsIx9GZ4jARHAGcN3cukI0",
+            "plus_code": {
+                "compound_code": "PGQ6+XG Bangkok, Thailand",
+                "global_code": "7P52PGQ6+XG"
+            },
+            "rating": 4.7,
+            "reference": "ChIJLWsIx9GZ4jARHAGcN3cukI0",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ],
+            "user_ratings_total": 7,
+            "vicinity": "157\u0e15\u0e23\u0e2d\u0e01\u0e44\u0e17\u0e23, \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a \u0e0b\u0e2d\u0e22 2, \u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e27\u0e07\u0e28\u0e4c, \u0e40\u0e02\u0e15\u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e27\u0e07\u0e28\u0e4c"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": { "lat": 13.7407713, "lng": 100.5116689 },
+                "viewport": {
+                    "northeast": { "lat": 13.7421629302915, "lng": 100.5130542802915 },
+                    "southwest": { "lat": 13.7394649697085, "lng": 100.5103563197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Herbata",
+            "permanently_closed": true,
+            "place_id": "ChIJnQXbE8OZ4jARX-GoTwS_wa0",
+            "plus_code": {
+                "compound_code": "PGR6+8M Bangkok, Thailand",
+                "global_code": "7P52PGR6+8M"
+            },
+            "reference": "ChIJnQXbE8OZ4jARX-GoTwS_wa0",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "vicinity": "632-6 Charoen Krung Road, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": { "lat": 13.7396683, "lng": 100.5114086 },
+                "viewport": {
+                    "northeast": { "lat": 13.7409416302915, "lng": 100.5127070302915 },
+                    "southwest": { "lat": 13.7382436697085, "lng": 100.5100090697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "The Polar Cups",
+            "permanently_closed": true,
+            "photos": [{
+                "height": 1280,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106508503073614064411\">The Polar Cups</a>"
+                ],
+                "photo_reference": "AUjq9jk_DmcA0rkmKRVdpxHRhcSbX2xAPKlMwyQaqY7MaeX70ydQFLyWtoZeduCM1GX7Tzqt6eXHB1zp4Ehtoz716lLovlatATDF5L9SJmOdJ71Dst4YXZOrJ-8pkrZDXHrqazml1sp5r1N_i_HSCFjGUGoB-2obln9qAxyeDR2IQQjskNx1",
+                "width": 1280
+            }],
+            "place_id": "ChIJmdTBPyGZ4jARDj4ZW0EGPto",
+            "plus_code": {
+                "compound_code": "PGQ6+VH Bangkok, Thailand",
+                "global_code": "7P52PGQ6+VH"
+            },
+            "rating": 4.7,
+            "reference": "ChIJmdTBPyGZ4jARDj4ZW0EGPto",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "store", "establishment"],
+            "user_ratings_total": 11,
+            "vicinity": "487 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7404424, "lng": 100.5120419 },
+                "viewport": {
+                    "northeast": { "lat": 13.7418386802915, "lng": 100.5134312802915 },
+                    "southwest": { "lat": 13.7391407197085, "lng": 100.5107333197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Kopi.nextgen - \u0e42\u0e01\u0e1b\u0e35\u0e4a\u0e0b\u0e38\u0e07\u0e40\u0e01\u0e35\u0e49\u0e22",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113366027055047348680\">Narut Aramdutsadeewong</a>"
+                ],
+                "photo_reference": "AUjq9jnThwjbnHv5lcwXI22P3BZnjL_hm_-AjG78elu7YoA7ByNNOWM7IXXvIzUn2rNIrjTCYR0dVrkd_KbFlETnrLrieA4s9KQm6VGpjHhj8lCsdY2yA2hW6vAR6cjQzctjiV42oiQDBOuQ_kwFtjI3FYaInC2w8IIt-8NGsVUMiCvf5Hlr",
+                "width": 3024
+            }],
+            "place_id": "ChIJT2xhlTmZ4jARXREX9CTyN_Y",
+            "plus_code": {
+                "compound_code": "PGR6+5R Bangkok, Thailand",
+                "global_code": "7P52PGR6+5R"
+            },
+            "rating": 5,
+            "reference": "ChIJT2xhlTmZ4jARXREX9CTyN_Y",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "store", "establishment"],
+            "user_ratings_total": 16,
+            "vicinity": "662 Charoen Krung Road, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7396707, "lng": 100.51158 },
+                "viewport": {
+                    "northeast": { "lat": 13.7410024302915, "lng": 100.5129510302915 },
+                    "southwest": { "lat": 13.7383044697085, "lng": 100.5102530697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "\u0e04\u0e31\u0e19\u0e44\u0e02\u0e48",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 1097,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112559910121219590956\">Olanoyja</a>"
+                ],
+                "photo_reference": "AUjq9jklWGH31_Bt1oPuiVVryFvuH3CDmaT2RcIdig7z5uNdqXTKMkdYvtsV4dLnaPrcfj7-FxK407tPvEYMtxssWt0o8EA_lga0qknx-45enklvgKAflpzrEaw2x9Tq4JmVjjQLLmiNNDXO1-ZWe-e8kVfb7GeMjOOyz8Z4046UdZi9MfoI",
+                "width": 1500
+            }],
+            "place_id": "ChIJKVgVPyGZ4jAR8T6pg2TPcKE",
+            "plus_code": {
+                "compound_code": "PGQ6+VJ Bangkok, Thailand",
+                "global_code": "7P52PGQ6+VJ"
+            },
+            "rating": 4.7,
+            "reference": "ChIJKVgVPyGZ4jAR8T6pg2TPcKE",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 3,
+            "vicinity": "52 Song Sawat Road, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": { "lat": 13.7410461, "lng": 100.5111489 },
+                "viewport": {
+                    "northeast": { "lat": 13.7423948802915, "lng": 100.5124977302915 },
+                    "southwest": { "lat": 13.7396969197085, "lng": 100.5097997697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "\u0e40\u0e08\u0e49\u0e08\u0e39 \u0e1a\u0e31\u0e27\u0e25\u0e2d\u0e22 \u0e19\u0e49\u0e33\u0e02\u0e34\u0e07",
+            "permanently_closed": true,
+            "place_id": "ChIJk3ZtUGeZ4jARfhIcS5oplPE",
+            "plus_code": {
+                "compound_code": "PGR6+CF Bangkok, Thailand",
+                "global_code": "7P52PGR6+CF"
+            },
+            "rating": 5,
+            "reference": "ChIJk3ZtUGeZ4jARfhIcS5oplPE",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 1,
+            "vicinity": "24 Phiphaksa 1, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7401612, "lng": 100.5105445 },
+                "viewport": {
+                    "northeast": { "lat": 13.7414482302915, "lng": 100.5118555302915 },
+                    "southwest": { "lat": 13.7387502697085, "lng": 100.5091575697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Cha Tra Mue - \u0e23\u0e49\u0e32\u0e19\u0e0a\u0e32\u0e15\u0e23\u0e32\u0e21\u0e37\u0e2d",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106877729085706822612\">Rommel Naoe Magnayon</a>"
+                ],
+                "photo_reference": "AUjq9jlDseHc3AwKj6Ijy1cFth6fcQuubeNSXxFhq5GTl3XneVxh37s7bkmgZfdD2qE9Bb2y8XxLnHVVjkS5wWfMTpoDhpCIg8DvVEKxrAtbaWMlRBOKYb-JC0ZMf3wGNEp8_NZOrQIC7bbvyyeOv7GehmSf6pnbw4fg0dpjzvLeuulw72og",
+                "width": 3024
+            }],
+            "place_id": "ChIJgYvTQqaZ4jARJcenkVQjQ_Q",
+            "plus_code": {
+                "compound_code": "PGR6+36 Bangkok, Thailand",
+                "global_code": "7P52PGR6+36"
+            },
+            "rating": 4.4,
+            "reference": "ChIJgYvTQqaZ4jARJcenkVQjQ_Q",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 62,
+            "vicinity": "451 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7406655, "lng": 100.5121069 },
+                "viewport": {
+                    "northeast": { "lat": 13.7419801802915, "lng": 100.5134265802915 },
+                    "southwest": { "lat": 13.7392822197085, "lng": 100.5107286197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "TCHA (\u0e17\u0e35\u0e09\u0e32) Chinese Gongfu Tea \u4e2d\u56fd\u8336\u53f6\u5e97\uff0c\u8336\u5177 \u0e23\u0e49\u0e32\u0e19\u0e02\u0e32\u0e22\u0e43\u0e1a\u0e0a\u0e32\u0e08\u0e35\u0e19\u0e0a\u0e31\u0e49\u0e19\u0e14\u0e35",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 659,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106677504803395205744\">TCHA (\u0e17\u0e35\u0e09\u0e32) Chinese Gongfu Tea \u4e2d\u56fd\u8336\u53f6\u5e97\uff0c\u8336\u5177 \u0e23\u0e49\u0e32\u0e19\u0e02\u0e32\u0e22\u0e43\u0e1a\u0e0a\u0e32\u0e08\u0e35\u0e19\u0e0a\u0e31\u0e49\u0e19\u0e14\u0e35</a>"
+                ],
+                "photo_reference": "AUjq9jlSQVy0vsCtdXQBNLBvzBU0nzDLCKMgcExFcrdhM2IasJtAz_7n2XHjtQnNtYZIkStpnwy5dtQ8XHfh_3LJNzLD4GzpWFblF5vZuVMpvGbZNZ6DPkzmIbbdc3R_rtrNyMzBGzof1QIX-qRLrX_-OZ9NIPZi5OvPncf5qMeb_w4WIkY6",
+                "width": 1170
+            }],
+            "place_id": "ChIJyYKZFGGZ4jAR98m6iMExhRE",
+            "plus_code": {
+                "compound_code": "PGR6+7R Bangkok, Thailand",
+                "global_code": "7P52PGR6+7R"
+            },
+            "rating": 4.9,
+            "reference": "ChIJyYKZFGGZ4jAR98m6iMExhRE",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "store", "establishment"],
+            "user_ratings_total": 39,
+            "vicinity": "589 Charoen Krung Road, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7395688, "lng": 100.5110029 },
+                "viewport": {
+                    "northeast": { "lat": 13.7409657802915, "lng": 100.5123822802915 },
+                    "southwest": { "lat": 13.7382678197085, "lng": 100.5096843197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "520 \u0e2d\u0e39\u0e48 \u0e40\u0e2d\u0e49\u0e2d \u0e2b\u0e25\u0e34\u0e07 \u4e94\u4e8c\u96f6 Wu Er Ling",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 1379,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116902917136348122930\">520 \u0e2d\u0e39\u0e48 \u0e40\u0e2d\u0e49\u0e2d \u0e2b\u0e25\u0e34\u0e07 \u4e94\u4e8c\u96f6 Wu Er Ling</a>"
+                ],
+                "photo_reference": "AUjq9jkOsxHwEKF8Z5S3kgYCcIOsyBAU76oi1CZQRW7CYg4ATZEHySrPwVYzeHaoPdAKcigPujkjxrkfRMP1KE_sBr7YpI4R8nQUsD8G5m77DPt2LzGIxzGouv69AyJWTKckKa930mKGt3w2AK2S9CKyTTpJF-uI1g1R8NxdpfpjMAtXUnDG",
+                "width": 1110
+            }],
+            "place_id": "ChIJNfx3EyGZ4jARWw2pefmvESs",
+            "plus_code": {
+                "compound_code": "PGQ6+RC Bangkok, Thailand",
+                "global_code": "7P52PGQ6+RC"
+            },
+            "price_level": 1,
+            "rating": 4.7,
+            "reference": "ChIJNfx3EyGZ4jARWw2pefmvESs",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 107,
+            "vicinity": "520 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": { "lat": 13.7400673, "lng": 100.512213 },
+                "viewport": {
+                    "northeast": { "lat": 13.7414316302915, "lng": 100.5136168302915 },
+                    "southwest": { "lat": 13.7387336697085, "lng": 100.5109188697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "\u30ab\u30f3\u30ad\u30fc",
+            "permanently_closed": true,
+            "place_id": "ChIJmfKG_S2Z4jARkXAKChvv5bo",
+            "plus_code": {
+                "compound_code": "PGR6+2V Bangkok, Thailand",
+                "global_code": "7P52PGR6+2V"
+            },
+            "reference": "ChIJmfKG_S2Z4jARkXAKChvv5bo",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "vicinity": "674 Charoen Krung Road, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7394628, "lng": 100.5116903 },
+                "viewport": {
+                    "northeast": { "lat": 13.7407837802915, "lng": 100.5130776302915 },
+                    "southwest": { "lat": 13.7380858197085, "lng": 100.5103796697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "\u0e2e\u0e30\u0e40\u0e2e\u0e07",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 1280,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109803677506359135926\">Anucha Rattanawannachai</a>"
+                ],
+                "photo_reference": "AUjq9jlMTmf4GHuLM-fVQwGECmqXdpDTr8EUov1Ij6n86NTC29oWbEK-fAi9DeQ9_Y2jl48QTtvASoCi0As6y-fM2vOsh619kVZAmnhhvBvgvSIU1vCSSIo8g7ITWp-mc5kAZJbDME9IqNJ975UZ61m5CPO8i3AYvNo7ejioEYX7s3jRceiC",
+                "width": 720
+            }],
+            "place_id": "ChIJAc4SixKZ4jARgxtEdAibsG4",
+            "plus_code": {
+                "compound_code": "PGQ6+QM Bangkok, Thailand",
+                "global_code": "7P52PGQ6+QM"
+            },
+            "rating": 5,
+            "reference": "ChIJAc4SixKZ4jARgxtEdAibsG4",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 1,
+            "vicinity": "501 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7394065, "lng": 100.5118518 },
+                "viewport": {
+                    "northeast": { "lat": 13.74077533029151, "lng": 100.5131736302915 },
+                    "southwest": { "lat": 13.7380773697085, "lng": 100.5104756697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "\u0e23\u0e49\u0e32\u0e19\u0e02\u0e49\u0e32\u0e07\u0e1a\u0e49\u0e32\u0e19 coffee.mokapot",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 750,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107119640077919005349\">\u0e23\u0e49\u0e32\u0e19\u0e02\u0e49\u0e32\u0e07\u0e1a\u0e49\u0e32\u0e19 coffee.mokapot</a>"
+                ],
+                "photo_reference": "AUjq9jnU7LDIPYHZ-2Hry2P7IQXDF79jD1VLaBsBT6dFqnUeUEsfSYunPF6ud9RdFYiNkT8JS10iC8OEiGEFLF6QOshB5937jIf9zwjb5ZhVWHZ44gs2DWmy04kknrxOxUVTt7pwbZYI48NvDZJOf9kgXItg3-JKHVLGCEcfLRv_5lp2s-Ky",
+                "width": 1350
+            }],
+            "place_id": "ChIJ18EsLxyZ4jAR0kE-qHqAfts",
+            "plus_code": {
+                "compound_code": "PGQ6+QP Bangkok, Thailand",
+                "global_code": "7P52PGQ6+QP"
+            },
+            "rating": 5,
+            "reference": "ChIJ18EsLxyZ4jAR0kE-qHqAfts",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "store", "establishment"],
+            "user_ratings_total": 2,
+            "vicinity": "505 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7402541, "lng": 100.5102608 },
+                "viewport": {
+                    "northeast": { "lat": 13.7415673302915, "lng": 100.5115879302915 },
+                    "southwest": { "lat": 13.7388693697085, "lng": 100.5088899697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Yoo Cafe By Talk Club",
+            "place_id": "ChIJQcUL1p6Z4jARJbmUnECZbU0",
+            "plus_code": {
+                "compound_code": "PGR6+44 Bangkok, Thailand",
+                "global_code": "7P52PGR6+44"
+            },
+            "reference": "ChIJQcUL1p6Z4jARJbmUnECZbU0",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "vicinity": "433, \u0e2a\u0e31\u0e21\u0e1e\u0e31\u0e19\u0e18\u0e27\u0e07\u0e28\u0e4c, Khet Samphanthawong"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": { "lat": 13.7398293, "lng": 100.5103272 },
+                "viewport": {
+                    "northeast": { "lat": 13.7411833802915, "lng": 100.5116715302915 },
+                    "southwest": { "lat": 13.7384854197085, "lng": 100.5089735697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "\u0421\u0430\u043c\u0430\u044f \u0447\u0430\u0439\u043d\u0430\u044f \u0411\u0430\u043d\u0433\u043a\u043e\u043a\u0430, old kafe",
+            "permanently_closed": true,
+            "place_id": "ChIJN3NOcyGZ4jAR0-KorlIvhU4",
+            "plus_code": {
+                "compound_code": "PGQ6+W4 Bangkok, Thailand",
+                "global_code": "7P52PGQ6+W4"
+            },
+            "reference": "ChIJN3NOcyGZ4jAR0-KorlIvhU4",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "vicinity": "10100, 51/1 Phadung Dao Road, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7391986, "lng": 100.5115421 },
+                "viewport": {
+                    "northeast": { "lat": 13.7406067302915, "lng": 100.5129314302915 },
+                    "southwest": { "lat": 13.7379087697085, "lng": 100.5102334697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "\u9f99\u5934",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 3000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105935163791451386420\">KLKK</a>"
+                ],
+                "photo_reference": "AUjq9jkUvbZwyhRjJPk6Mpo2Ijorl68ry1IiZgA8z1Y_nFvI87TuQmzCX1v311vmlS9aipZ52ZNuxrEsw2jKZpsXbxq2r2V-LlqoRmz6klcPmNJ4fyoiWWq_AMhFqWVk9zN2Ytagy10gJu1qF4htZAHQNviASpfFgEzELJHspoJGCWaOKSQS",
+                "width": 4000
+            }],
+            "place_id": "ChIJe5z5PCGZ4jARoHiME4pJgK8",
+            "plus_code": {
+                "compound_code": "PGQ6+MJ Bangkok, Thailand",
+                "global_code": "7P52PGQ6+MJ"
+            },
+            "rating": 2.7,
+            "reference": "ChIJe5z5PCGZ4jARoHiME4pJgK8",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 7,
+            "vicinity": "538 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khet Samphanthawong"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": { "lat": 13.739809, "lng": 100.5103042 },
+                "viewport": {
+                    "northeast": { "lat": 13.7411633802915, "lng": 100.5116482302915 },
+                    "southwest": { "lat": 13.7384654197085, "lng": 100.5089502697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Dessert caf @china town",
+            "permanently_closed": true,
+            "photos": [{
+                "height": 992,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113042383515716350512\">Jack Chew</a>"
+                ],
+                "photo_reference": "AUjq9jn_1Ghah0z6QiOYvStlzaido3Hhm9nC9VylGkKiteAmFeGlqEu0yZ41fGTeXhCSzbJijvlhgsWntVlLDol6j-HirJ7DtT2KMdFhblqJ-eAZNEwhMgeF1yQVZ9WLa_yodoL78bbJljMBy5qCJxwrPCJPx6aKMBwJDrOpXT_KV58nYZiQ",
+                "width": 1029
+            }],
+            "place_id": "ChIJs0SCF5CZ4jARpd1Ear6BrZo",
+            "plus_code": {
+                "compound_code": "PGQ6+W4 Bangkok, Thailand",
+                "global_code": "7P52PGQ6+W4"
+            },
+            "reference": "ChIJs0SCF5CZ4jARpd1Ear6BrZo",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "vicinity": "1084 Phadung Dao Road, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7391887, "lng": 100.5115376 },
+                "viewport": {
+                    "northeast": { "lat": 13.7406012802915, "lng": 100.5129299802915 },
+                    "southwest": { "lat": 13.7379033197085, "lng": 100.5102320197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Lhong Tou Cafe at Yaowarat",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 1036,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111216600815742506129\">Lhong Tou Cafe at Yaowarat</a>"
+                ],
+                "photo_reference": "AUjq9jlN9cRpBH5vroxb62YN5HQO2-dluboMlIGFoF7x9ShrI-Uuc4X6utEoLwFJIYdLWcO0-v-xJozx1nqA5Vs4bJQttFj-VHDJ-G4466X6gmcVZ8kJNuFu-nvb6AmJvaoYINtxnG_yr2CHVuxNpOaXKzZ95zh5RDj7xrkuXh4qKogPe7p4",
+                "width": 1840
+            }],
+            "place_id": "ChIJ28w-PCGZ4jARQGYsDC0QPV8",
+            "plus_code": {
+                "compound_code": "PGQ6+MJ Bangkok, Thailand",
+                "global_code": "7P52PGQ6+MJ"
+            },
+            "price_level": 2,
+            "rating": 4.1,
+            "reference": "ChIJ28w-PCGZ4jARQGYsDC0QPV8",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 1502,
+            "vicinity": "538 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7404673, "lng": 100.510157 },
+                "viewport": {
+                    "northeast": { "lat": 13.7417238302915, "lng": 100.5114494802915 },
+                    "southwest": { "lat": 13.7390258697085, "lng": 100.5087515197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Cocoalism",
+            "place_id": "ChIJGfZudyGZ4jARTLdggQ7N7kg",
+            "plus_code": {
+                "compound_code": "PGR6+53 Bangkok, Thailand",
+                "global_code": "7P52PGR6+53"
+            },
+            "reference": "ChIJGfZudyGZ4jARTLdggQ7N7kg",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "vicinity": "429 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": { "lat": 13.7391346, "lng": 100.5113307 },
+                "viewport": {
+                    "northeast": { "lat": 13.7404962302915, "lng": 100.5126593302915 },
+                    "southwest": { "lat": 13.7377982697085, "lng": 100.5099613697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "KUMASANG Coffee & Bubble Tea \u0e04\u0e38\u0e21\u0e30\u0e0b\u0e31\u0e07",
+            "permanently_closed": true,
+            "photos": [{
+                "height": 1365,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107701990531944235357\">Narupon Keawpilab (Pop)</a>"
+                ],
+                "photo_reference": "AUjq9jnvGAKo1EdX8XnYG7RGvResrHhe4YSERqS1olg_bi9d97LRwNUpMWruTP0quA0WC8Vtu5dkxt3xUBNnjdoyi2Zdv68XoRMo3n19qBaOpDsA2BQcx-xrLpddt2nslx2CJdCp4hsHIiSzkxHE-P7hsWY0ODeousbdluQXjjhPVVAKqOF9",
+                "width": 2048
+            }],
+            "place_id": "ChIJtWIogcOZ4jARd2eAOlLZOfY",
+            "plus_code": {
+                "compound_code": "PGQ6+MG Bangkok, Thailand",
+                "global_code": "7P52PGQ6+MG"
+            },
+            "rating": 4.7,
+            "reference": "ChIJtWIogcOZ4jARd2eAOlLZOfY",
+            "scope": "GOOGLE",
+            "types": ["cafe", "store", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 11,
+            "vicinity": "135 Song Sawat Road, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7415013, "lng": 100.5112165 },
+                "viewport": {
+                    "northeast": { "lat": 13.7427795802915, "lng": 100.5125108802915 },
+                    "southwest": { "lat": 13.7400816197085, "lng": 100.5098129197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Temp. & Time Coffee",
+            "place_id": "ChIJaUJu3iOZ4jARg37zybPiVmM",
+            "plus_code": {
+                "compound_code": "PGR6+JF Bangkok, Thailand",
+                "global_code": "7P52PGR6+JF"
+            },
+            "reference": "ChIJaUJu3iOZ4jARg37zybPiVmM",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "vicinity": "527 Charoen Krung Road, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7415013, "lng": 100.5112165 },
+                "viewport": {
+                    "northeast": { "lat": 13.7427795802915, "lng": 100.5125108802915 },
+                    "southwest": { "lat": 13.7400816197085, "lng": 100.5098129197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Jamba Juice",
+            "photos": [{
+                "height": 2268,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114941909172501883795\">psnnnoey</a>"
+                ],
+                "photo_reference": "AUjq9jkesE9PdrJrQL7IuOUIlhdYeONTSae7TDaOtMpNuqS25kBCpr-EuPz3LO5TG2WbzhkVVQzf8EX6GsBRQfIdRQ73sa3_-f_djyjrFLGneG-OL1jjnCV3BSDIzIk35d7uu4OJgF6Dc3kAmxX3Ea4MmTGvTgHbAWIndY2eN7q2pjK5NT-E",
+                "width": 4032
+            }],
+            "place_id": "ChIJXTwkp_yZ4jAR84ReM45YPYQ",
+            "plus_code": {
+                "compound_code": "PGR6+JF Bangkok, Thailand",
+                "global_code": "7P52PGR6+JF"
+            },
+            "rating": 4,
+            "reference": "ChIJXTwkp_yZ4jAR84ReM45YPYQ",
+            "scope": "GOOGLE",
+            "types": ["cafe", "store", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 1,
+            "vicinity": "531 Charoen Krung Road, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7415013, "lng": 100.5112165 },
+                "viewport": {
+                    "northeast": { "lat": 13.7427795802915, "lng": 100.5125108802915 },
+                    "southwest": { "lat": 13.7400816197085, "lng": 100.5098129197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Mee Khwam Sook",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113347299785896250265\">Chaisit Siricharoenchai</a>"
+                ],
+                "photo_reference": "AUjq9jkAX5qgmjLLm4iY86-4SNvVv7qCKaX7MnQrxotJFBAqihYs2CtW0tQ0dWn1Qu5GUE2nvV12KAMyUEp9u1-3K407-PX1nj_LQSjL4OP4rLcmWZ01wdOLVu2t5osVAoqwR2uPX9qvKZ6q2v0hkicRIwqaL2drMCoWNrKiVG_qRn9Rs3ba",
+                "width": 4000
+            }],
+            "place_id": "ChIJa2EQKmGZ4jARbEK_seJfepA",
+            "plus_code": {
+                "compound_code": "PGR6+JF Bangkok, Thailand",
+                "global_code": "7P52PGR6+JF"
+            },
+            "rating": 4.7,
+            "reference": "ChIJa2EQKmGZ4jARbEK_seJfepA",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 7,
+            "vicinity": "531 Charoen Krung Road, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7415168, "lng": 100.511329 },
+                "viewport": {
+                    "northeast": { "lat": 13.7427638802915, "lng": 100.5125992802915 },
+                    "southwest": { "lat": 13.7400659197085, "lng": 100.5099013197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "\u0e41\u0e2d\u0e21 \u0e44\u0e0a\u0e19\u0e48\u0e32\u0e17\u0e32\u0e27\u0e19\u0e4c",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 809,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104690767051201738697\">KAMU KAMU I&#39;m Chinatown</a>"
+                ],
+                "photo_reference": "AUjq9jnTi5tUvgn2GRjwGNYreEIanGqHQGm7m2KjBa-WIaERg5ZjjLKtFfJNUJbDXINH7gxWv9e4HmzGSXFFKwia7tFIZQjTJXMN8YYNEPIUaE-2BgjREjovvStpoYHmEivWT26i9PbgMPLQBfQd23hELVh0EJsOAb0sk1CaweiODuoOIYkk",
+                "width": 1440
+            }],
+            "place_id": "ChIJ1zSkSgSZ4jAREWJFkzrUq7U",
+            "rating": 3.8,
+            "reference": "ChIJ1zSkSgSZ4jAREWJFkzrUq7U",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 12,
+            "vicinity": "3F, 531 Charoen Krung Road, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7415235, "lng": 100.5115151 },
+                "viewport": {
+                    "northeast": { "lat": 13.7427297802915, "lng": 100.5127408802915 },
+                    "southwest": { "lat": 13.7400318197085, "lng": 100.5100429197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Yi Fang",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 2268,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117478807885968288864\">oak mon</a>"
+                ],
+                "photo_reference": "AUjq9jkcbWhXaivCVysGCySUpsKBllt3qlJ58q0Ma1qCnyRlAP-iaSmzPn8WEPrtBKREwxVNtm1lokxfDfiQdUUzAEh8wQmk_k-HVFmT1lT6p4BZ33IVwG7Lvf7c81HhgF8JfnxWKGih6_J0CrmCp3qdGgjzDCsqDqug78HYo2eWDUAS0huy",
+                "width": 4032
+            }],
+            "place_id": "ChIJf1xBDeWZ4jARSQofSGZzLFY",
+            "plus_code": {
+                "compound_code": "PGR6+JJ Bangkok, Thailand",
+                "global_code": "7P52PGR6+JJ"
+            },
+            "rating": 4.5,
+            "reference": "ChIJf1xBDeWZ4jARSQofSGZzLFY",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 2,
+            "vicinity": "\u0e0a\u0e31\u0e49\u0e19\u0e17\u0e35\u0e48 1, \u0e40\u0e25\u0e02\u0e17\u0e35\u0e48 531 \u0e2d\u0e32\u0e04\u0e32\u0e23 \u0e42\u0e04\u0e23\u0e07\u0e01\u0e32\u0e23\u0e41\u0e2d\u0e21\u0e44\u0e0a\u0e19\u0e48\u0e32\u0e17\u0e32\u0e27\u0e19\u0e4c \u0e2b\u0e49\u0e2d\u0e07\u0e40\u0e25\u0e02\u0e17\u0e35\u0e48 F1-7, Charoen Krung Road, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7415264, "lng": 100.5111728 },
+                "viewport": {
+                    "northeast": { "lat": 13.7428068302915, "lng": 100.5124688302915 },
+                    "southwest": { "lat": 13.7401088697085, "lng": 100.5097708697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Starbucks @ I\u2019m Chinatown",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 1984,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108703531552845020805\">Evan Soh</a>"
+                ],
+                "photo_reference": "AUjq9jklrT-Yr7J2EZrLmRRm8UlT2HwxKqCdLKB4xJbB2yAy0FEOOAQKafhvu_t1jAV3ISNE8ZGD232Aiej_DAJbQ3tFfyNTZPgLCM-SO5wp-r2hNvT1nmXImp74HyiTSqLVa4Xvd1zesAReezWcSj82ULpAyfsEohtPwu5y5PUg7NEtoiin",
+                "width": 3968
+            }],
+            "place_id": "ChIJuQJ8ZSGZ4jARrNWuPLbIyy0",
+            "plus_code": {
+                "compound_code": "PGR6+JF Bangkok, Thailand",
+                "global_code": "7P52PGR6+JF"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJuQJ8ZSGZ4jARrNWuPLbIyy0",
+            "scope": "GOOGLE",
+            "types": ["cafe", "store", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 86,
+            "vicinity": "531 Charoen Krung Road, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7393017, "lng": 100.5106471 },
+                "viewport": {
+                    "northeast": { "lat": 13.7406309802915, "lng": 100.5119868302915 },
+                    "southwest": { "lat": 13.7379330197085, "lng": 100.5092888697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Eiah Sae \u76ca\u751f",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 2836,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114960726223703734828\">Trotting Horse</a>"
+                ],
+                "photo_reference": "AUjq9jk5_5TeotU6C1qlr_thrHzT8IuaPk9dw7w6B-QfYFtuM8J_b6BwdWdBBoi86qihAuZPY6DEFVYa2kuu7A7xVV7Wh8s6NRf4zoV51SXOsM1j9tUV84NiiFOgLz0sN81ad3CvLuk12x6aMn6xsXSlf4rvE17YpYusmu1NpY0njp9xL8p6",
+                "width": 3781
+            }],
+            "place_id": "ChIJn0dHDiGZ4jARs8Xh9PbOgZ0",
+            "plus_code": {
+                "compound_code": "PGQ6+P7 Bangkok, Thailand",
+                "global_code": "7P52PGQ6+P7"
+            },
+            "rating": 4.3,
+            "reference": "ChIJn0dHDiGZ4jARs8Xh9PbOgZ0",
+            "scope": "GOOGLE",
+            "types": ["cafe", "store", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 71,
+            "vicinity": "111 Phat Sai, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7392975, "lng": 100.51064 },
+                "viewport": {
+                    "northeast": { "lat": 13.7406328802915, "lng": 100.5119826302915 },
+                    "southwest": { "lat": 13.7379349197085, "lng": 100.5092846697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Old Yisheng Shop",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100842868033008517597\">AHA W</a>"
+                ],
+                "photo_reference": "AUjq9jn7c6vGOiO6d4-YnGUkAw381Z98RQ1YSzGeAV8YUCBbOXaSxZrzeUbMbAb0ZfnnUtTJiz0NpOytM2WuRmnvgUKgby8i754a_h4KpnsfmFK0XkETjzINwT_S-DlSWRBSIzd0Ka3z4tKojy8w2mVrhUNYxmMmwkiNnlHJPUMbmGzPNb5E",
+                "width": 4032
+            }],
+            "place_id": "ChIJB1ebVSGZ4jARtoBe8gyRalk",
+            "plus_code": {
+                "compound_code": "PGQ6+P7 Bangkok, Thailand",
+                "global_code": "7P52PGQ6+P7"
+            },
+            "rating": 4.2,
+            "reference": "ChIJB1ebVSGZ4jARtoBe8gyRalk",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 86,
+            "vicinity": "107 Phat Sai, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.739114, "lng": 100.5110437 },
+                "viewport": {
+                    "northeast": { "lat": 13.7404508802915, "lng": 100.5123873302915 },
+                    "southwest": { "lat": 13.7377529197085, "lng": 100.5096893697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Ek Teng Phu Ki",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 513,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104097441077298031729\">\u0e40\u0e2d\u0e47\u0e01\u0e40\u0e15\u0e47\u0e07\u0e1c\u0e39\u0e48\u0e01\u0e35\u0e48</a>"
+                ],
+                "photo_reference": "AUjq9jmwewNvMgeytQbbAG48h7j7aT3II1o0SMa71ZwiiUuNhHX46BG2QLQ_nX9y3qJ98-bDnlqBvHbfQF8spuU0O0QzL3gz5Dx_s6m1pGWufw8k1kqS6Gk7mIw32HccGm6YJvEj7dQp_TBxrK7lFGg5ArTpkUbp9ecC-EQ6gO2oxMvBK2l2",
+                "width": 912
+            }],
+            "place_id": "ChIJTVowFyGZ4jAR0sUh9Da0KS4",
+            "plus_code": {
+                "compound_code": "PGQ6+JC Bangkok, Thailand",
+                "global_code": "7P52PGQ6+JC"
+            },
+            "price_level": 1,
+            "rating": 4.4,
+            "reference": "ChIJTVowFyGZ4jAR0sUh9Da0KS4",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "store",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ],
+            "user_ratings_total": 208,
+            "vicinity": "163 Phat Sai, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7408803, "lng": 100.5124995 },
+                "viewport": {
+                    "northeast": { "lat": 13.7422044802915, "lng": 100.5138856802915 },
+                    "southwest": { "lat": 13.7395065197085, "lng": 100.5111877197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Hom Dee Mee",
+            "place_id": "ChIJIdteX_eZ4jARIWPnAjIS1NQ",
+            "plus_code": {
+                "compound_code": "PGR6+9X Bangkok, Thailand",
+                "global_code": "7P52PGR6+9X"
+            },
+            "reference": "ChIJIdteX_eZ4jARIWPnAjIS1NQ",
+            "scope": "GOOGLE",
+            "types": ["cafe", "store", "point_of_interest", "food", "establishment"],
+            "vicinity": "460 Thanon Mittraphan, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.739305, "lng": 100.510585 },
+                "viewport": {
+                    "northeast": { "lat": 13.7406541802915, "lng": 100.5119340302915 },
+                    "southwest": { "lat": 13.7379562197085, "lng": 100.5092360697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "The Reader BKK - Books | Coffee | Tea",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 1080,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113575594279483132842\">NAWINDA INGKAWATE</a>"
+                ],
+                "photo_reference": "AUjq9jmz_46GYFX2k5Wv9y4MHJvCsFUThl1LFyazHV-D8BzQ4_jAaPdbrOtrAeH-diBSU-kRcSQMdPMKq99gWQWte1sYUWMXdskLplxMG2O3jwT_w9VnwjS9WMXLnAtMRRO4G_lN6egJkLim7QWFexG1KL2SFNHmVSnLV6lpOkV60rGInFbe",
+                "width": 1616
+            }],
+            "place_id": "ChIJqcfCgtaZ4jARqk0PnEvNigA",
+            "plus_code": {
+                "compound_code": "PGQ6+P6 Bangkok, Thailand",
+                "global_code": "7P52PGQ6+P6"
+            },
+            "rating": 5,
+            "reference": "ChIJqcfCgtaZ4jARqk0PnEvNigA",
+            "scope": "GOOGLE",
+            "types": ["cafe", "store", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 8,
+            "vicinity": "107 Phat Sai, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "CLOSED_TEMPORARILY",
+            "geometry": {
+                "location": { "lat": 13.7392083, "lng": 100.511977 },
+                "viewport": {
+                    "northeast": { "lat": 13.7405167302915, "lng": 100.5132881302915 },
+                    "southwest": { "lat": 13.7378187697085, "lng": 100.5105901697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Dessert Shop",
+            "permanently_closed": true,
+            "photos": [{
+                "height": 1080,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103617981378258184745\">Ray K</a>"
+                ],
+                "photo_reference": "AUjq9jmvubDpxak-WdhGD-kP33A9TmSaLBjSSXer3JK4B_ObuUb6DS075d7aIHCrayB4yx1sgSOjj9tiPcZQcX26_0K7vlk0buuW-8_WqlM0WKhfh_IE5w6qiWB5EXBxiRE2bccbjiA_mx2RqVSPQ9fG5NWpSXUdP-mgNUIn3NW8hWTU1Olc",
+                "width": 1920
+            }],
+            "place_id": "ChIJI3qOOiGZ4jARJNl8INH3q5o",
+            "reference": "ChIJI3qOOiGZ4jARJNl8INH3q5o",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "vicinity": "PGQ6+MQQ, Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7415707, "lng": 100.511152 },
+                "viewport": {
+                    "northeast": { "lat": 13.7428437802915, "lng": 100.5124407302915 },
+                    "southwest": { "lat": 13.7401458197085, "lng": 100.5097427697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Moma's Bubble Tea Bar I'm Chinatown",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103426003007736303655\">Moma&#39;s Bubble Tea Bar ( I&#39;m Chinatown \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a )</a>"
+                ],
+                "photo_reference": "AUjq9jnwHltxXyU8PqFYFk7PtUccwq_r3Wonhkbgpfbbu1dpDF25bHrFWI6IotxyZJG6fqQ6YAmMj-8qDhu11sc0f22ZG9C4KEVnDm3Rzo4NO9xUw6_3rSqw3OfqVR9nodTNI4bfBnCNGDaZ28BkKKEHL2fYPy3IN2gxKDov0ZYU3r6oDlKf",
+                "width": 4032
+            }],
+            "place_id": "ChIJnWMPdniZ4jARJZishnH3YaU",
+            "plus_code": {
+                "compound_code": "PGR6+JF Bangkok, Thailand",
+                "global_code": "7P52PGR6+JF"
+            },
+            "rating": 3.9,
+            "reference": "ChIJnWMPdniZ4jARJZishnH3YaU",
+            "scope": "GOOGLE",
+            "types": ["cafe", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 12,
+            "vicinity": "527, 7 Charoen Krung Road, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7397422, "lng": 100.5112252 },
+                "viewport": {
+                    "northeast": { "lat": 13.7410269802915, "lng": 100.5125360802915 },
+                    "southwest": { "lat": 13.7383290197085, "lng": 100.5098381197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "icon_background_color": "#909CE1",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+            "name": "Shanghai Mansion Bangkok",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 1377,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117880747102361995540\">Shanghai Mansion Bangkok</a>"
+                ],
+                "photo_reference": "AUjq9jkDldvlM5CCJiUl7GfyxpgrcTp5Oa9gd56fV3aa3KMkCQyMWZ7oK9maubG2A93N3kKXVRV1TvSOo8a8Qk-au-IZriKXLnyY5SDghaPXbooi0Numms3TfC9ZMn-IOcO4O14n4HW_dY6Maaj8WomC4U2_Jo4jjlw4MfMteODlk402HwzI",
+                "width": 2048
+            }],
+            "place_id": "ChIJiZQjqBiZ4jARc2JnvJpcX8k",
+            "plus_code": {
+                "compound_code": "PGQ6+VF Bangkok, Thailand",
+                "global_code": "7P52PGQ6+VF"
+            },
+            "rating": 4.4,
+            "reference": "ChIJiZQjqBiZ4jARc2JnvJpcX8k",
+            "scope": "GOOGLE",
+            "types": [
+                "night_club",
+                "bar",
+                "lodging",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ],
+            "user_ratings_total": 1625,
+            "vicinity": "479, 481 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7398638, "lng": 100.5110245 },
+                "viewport": {
+                    "northeast": { "lat": 13.7411482302915, "lng": 100.5123346302915 },
+                    "southwest": { "lat": 13.7384502697085, "lng": 100.5096366697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Nam Sing",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3456,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114118602641582529989\">\u6797\u51f1\u897f</a>"
+                ],
+                "photo_reference": "AUjq9jnHNPlmGgIDj1FDK-8uN_79li_T0cao2luNYALIuKwKqrQAwZB09I3etLGojJCJCAZtS7mtpckur197BfHj-ojMOyGgfIhsQXZ6c740pGNu5wGJUqyLaKlOTRlHgl08e0gi1SFMpZuXKdkdiPGgZUO4SlNws48b7GZZN2PhkKHrC4S4",
+                "width": 4608
+            }],
+            "place_id": "ChIJR6GKbiGZ4jARDbYEtD0SfGM",
+            "plus_code": {
+                "compound_code": "PGQ6+WC Bangkok, Thailand",
+                "global_code": "7P52PGQ6+WC"
+            },
+            "rating": 3.9,
+            "reference": "ChIJR6GKbiGZ4jARDbYEtD0SfGM",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 192,
+            "vicinity": "471, 473 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.742378, "lng": 100.5100227 },
+                "viewport": {
+                    "northeast": { "lat": 13.7437237302915, "lng": 100.5113006802915 },
+                    "southwest": { "lat": 13.7410257697085, "lng": 100.5086027197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Bamee Jabkang (Original)",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109658405786944273086\">Sherry Zhang</a>"
+                ],
+                "photo_reference": "AUjq9jkU9BkIOIiIB3QiWE5Ye26tTdpLMmxkpJ4CN-erNCwpczK5I7sxY-DDmTqEYHtSsmn9i495GVWvgysHwZKtnQan36W5b8J27kvww5vNqT8Y0td50sOnctz2C12pEfjc26-IZ6WkXai7RSvMH-Gjy6-J3gDSBg3IYmBcckgfNnIecxdi",
+                "width": 4032
+            }],
+            "place_id": "ChIJ8a_uziOZ4jARGO0z_ruk5Bs",
+            "rating": 4.1,
+            "reference": "ChIJ8a_uziOZ4jARGO0z_ruk5Bs",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 1650,
+            "vicinity": "PGR6+X22, Soi Charoen Krung 23, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7406807, "lng": 100.5108886 },
+                "viewport": {
+                    "northeast": { "lat": 13.7420087802915, "lng": 100.5122663802915 },
+                    "southwest": { "lat": 13.73931081970849, "lng": 100.5095684197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Yu Ei Noodle Shop",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 2547,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103724823031065473376\">Malee Panlam Lekzaa</a>"
+                ],
+                "photo_reference": "AUjq9jlpO7pATHBml9mR_DK9Qp773omaCPvv5CdWzdfp1i9bvq7RAFnUlftvqotukcu9FD_Mg6Dk-7z9Q_y_1TAWokrwhrKZ5DL1vH_dtyy9SBAjFIDUw2c3Ay2Y7wxNnk7wfadoIdszK0lU1bKd5J2deslu7XbdXAud3ZOBtJMSwI5V1hxR",
+                "width": 2084
+            }],
+            "place_id": "ChIJ3TnGWCGZ4jARzXYY6hh8dyE",
+            "plus_code": {
+                "compound_code": "PGR6+79 Bangkok, Thailand",
+                "global_code": "7P52PGR6+79"
+            },
+            "rating": 4.2,
+            "reference": "ChIJ3TnGWCGZ4jARzXYY6hh8dyE",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 19,
+            "vicinity": "454 Thanon Mittraphan, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7396979, "lng": 100.5113169 },
+                "viewport": {
+                    "northeast": { "lat": 13.7409799802915, "lng": 100.5126234802915 },
+                    "southwest": { "lat": 13.7382820197085, "lng": 100.5099255197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Chinatown Scala Restaurant",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/118235696902618937400\">RS\uc2e0\ud654\ud2b8\ub798\ube14 THAISHINHWA</a>"
+                ],
+                "photo_reference": "AUjq9jm4dcYs3JiuOeHe0fnt2Qtz81oxbf0u55fW0kOEmZs9ovFePftF62J-wBeyPcfDbHyOJT0wDCH6z0LOQuLNTRqyxTPm10DQoBZ576gmfA5A0teqVpRnwya6h1lFfGM7g3Zyd7YDuILc8Q0a7-xZZMQflqaTHdpWQ2gP_7wxwP-6XsBQ",
+                "width": 4032
+            }],
+            "place_id": "ChIJ25v9PyGZ4jARAJz3y18o4R0",
+            "plus_code": {
+                "compound_code": "PGQ6+VG Bangkok, Thailand",
+                "global_code": "7P52PGQ6+VG"
+            },
+            "price_level": 2,
+            "rating": 4.1,
+            "reference": "ChIJ25v9PyGZ4jARAJz3y18o4R0",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 770,
+            "vicinity": "483-5 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.73891, "lng": 100.512532 },
+                "viewport": {
+                    "northeast": { "lat": 13.7402794802915, "lng": 100.5139641302915 },
+                    "southwest": { "lat": 13.7375815197085, "lng": 100.5112661697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Odean Crab Wonton Noodle",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113222082581871315614\">\u308a\u3068\u308b\u307f\u3044\uff08Little My BKK\uff09</a>"
+                ],
+                "photo_reference": "AUjq9jnIxNrDWho_DkCZRHleqIloutNF43dQy0FpmF7uVjqiUhnu_mF8vkRTisvmIvhBVVo96sfJoAm6TpGjVhgJjHCx3nLj28GEsduscBQ33PkyGS2jvsB76ZfochqrJRS0ejw2scvDsn1aGM21ddnnTajleQP0ktjXYz0DD4SW7vTZm0YA",
+                "width": 3024
+            }],
+            "place_id": "ChIJexwZLSGZ4jAR0Cg9qysJX9Y",
+            "plus_code": {
+                "compound_code": "PGQ7+H2 Bangkok, Thailand",
+                "global_code": "7P52PGQ7+H2"
+            },
+            "rating": 4.2,
+            "reference": "ChIJexwZLSGZ4jAR0Cg9qysJX9Y",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 930,
+            "vicinity": "724 Charoen Krung Road, Khwaeng Talat Noi, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7402795, "lng": 100.5104026 },
+                "viewport": {
+                    "northeast": { "lat": 13.7415531302915, "lng": 100.5117054302915 },
+                    "southwest": { "lat": 13.7388551697085, "lng": 100.5090074697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Hua Lux Store",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 12000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105651391516576282052\">Titima Phetpalakorn</a>"
+                ],
+                "photo_reference": "AUjq9jk9qM8Xw9sLL6yfYieFPbveDfrmgU2Mr29468MoNSFmdo1zYf0jsLrNZPkS27b-kZXFzFjEQKP-t7W7Vk3fxx5KvSPxS8r94tKNgee0iewzGezYVAqgJANDTaES6PXWezeyWsiCWQSpB3yGmvM-C9apvH1TjhCtbfpmFPxvDIHzqGLP",
+                "width": 9000
+            }],
+            "place_id": "ChIJFc0ccSGZ4jARZC47i4bg5-E",
+            "plus_code": {
+                "compound_code": "PGR6+45 Bangkok, Thailand",
+                "global_code": "7P52PGR6+45"
+            },
+            "rating": 4.9,
+            "reference": "ChIJFc0ccSGZ4jARZC47i4bg5-E",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_takeaway",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 7,
+            "vicinity": "443 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7402657, "lng": 100.5092366 },
+                "viewport": {
+                    "northeast": { "lat": 13.7416074802915, "lng": 100.5105960302915 },
+                    "southwest": { "lat": 13.73890951970849, "lng": 100.5078980697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Tai Pae Steamed Bun",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 2322,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111551874940588138412\">Jojo Tang</a>"
+                ],
+                "photo_reference": "AUjq9jmcyvccuIJLq8hEV7_lxVUpY2OOEj1rG8cMUUSUU2qDi3NNxww4d9-g-AMgdLExQFnTnkSIMi1ieYM8z8CEn5g42Jn_YshVcOFzHKQQKNYN-0QEdmnoveMjII-gfhC0nTCeesS1MSCfMTJuS5f16eO0LYjJ_sZYghs_fdW8ZK5mEXyo",
+                "width": 4128
+            }],
+            "place_id": "ChIJzd-tkCGZ4jAR9cwvqUN_ekU",
+            "plus_code": {
+                "compound_code": "PGR5+4M Bangkok, Thailand",
+                "global_code": "7P52PGR5+4M"
+            },
+            "price_level": 2,
+            "rating": 4.1,
+            "reference": "ChIJzd-tkCGZ4jAR9cwvqUN_ekU",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 100,
+            "vicinity": "71 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e1e\u0e32\u0e19\u0e34\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7408824, "lng": 100.5111902 },
+                "viewport": {
+                    "northeast": { "lat": 13.7422390302915, "lng": 100.5125286802915 },
+                    "southwest": { "lat": 13.7395410697085, "lng": 100.5098307197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Tae Por Huad",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 453,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107860115148698940483\">Nok Dee</a>"
+                ],
+                "photo_reference": "AUjq9jk-Y80reJb82CDxYwiDspMZ7Y193Jy-EWfzL-QfGQR7oUlFxxjJ5LQUHBPyEvvS6ob5uwHaLXj_Dq18nIfAcAComMe0nFGdkDz_icPoN43KkI0JkZYmySggpW2v_1Fv0cDVgPI4Wfy4Vy-kmGIk_2R2BaCfKcn_GPrFPGz6d4vPcnDS",
+                "width": 677
+            }],
+            "place_id": "ChIJm7viXSGZ4jARWD4N8b4HrhY",
+            "plus_code": {
+                "compound_code": "PGR6+9F Bangkok, Thailand",
+                "global_code": "7P52PGR6+9F"
+            },
+            "rating": 4.3,
+            "reference": "ChIJm7viXSGZ4jARWD4N8b4HrhY",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 80,
+            "vicinity": "3-5 Phadung Dao Road, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.740264, "lng": 100.5107727 },
+                "viewport": {
+                    "northeast": { "lat": 13.7416295302915, "lng": 100.5121008802915 },
+                    "southwest": { "lat": 13.7389315697085, "lng": 100.5094029197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Nam Sing Bird's Nest- Shark Fin",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3840,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116909845020832757567\">Ci Hong Ang</a>"
+                ],
+                "photo_reference": "AUjq9jnxLvudB7yncSCXcE3R9jQNXhFImdP7OFfP8FiCTB79_Xz2IIwAoEEH86Voe6vT94LL39uc996IVF-6s3BwUZL_CedlDVYTPhdCKEhsC6zbwwMtd6VISicNIl17V-IqdYs5Va_mm4epIS2oFamC2D6m9_7-Ui02NBBkN_L7FLU0Bm3u",
+                "width": 5120
+            }],
+            "place_id": "ChIJrSRrbiGZ4jARQ6tB7ORqkcQ",
+            "plus_code": {
+                "compound_code": "PGR6+48 Bangkok, Thailand",
+                "global_code": "7P52PGR6+48"
+            },
+            "rating": 4,
+            "reference": "ChIJrSRrbiGZ4jARQ6tB7ORqkcQ",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 163,
+            "vicinity": "39-47 Phadung Dao Road, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7396842, "lng": 100.5134283 },
+                "viewport": {
+                    "northeast": { "lat": 13.7409832802915, "lng": 100.5147382802915 },
+                    "southwest": { "lat": 13.7382853197085, "lng": 100.5120403197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Tae Jeaw Cuisine",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 1067,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117612039953880135565\">\u0e23\u0e49\u0e32\u0e19\u0e2d\u0e32\u0e2b\u0e32\u0e23\u0e41\u0e15\u0e49\u0e08\u0e34\u0e4b\u0e27</a>"
+                ],
+                "photo_reference": "AUjq9jmMG7pSGTfgwbDc75ANXxnGb1IBNKbaVPtm5zWWt8QCh9vAqNDRFUVh9iUz6eq4fRplt859jgEv874-dl3JBf-VLbcSqVhmLKwVKXwCV5974Veme57YODLkjorinv0Mruq3WD4aDsP0CeAfvn9LUbSYsS83GgHO7XvazxtvpW66lC04",
+                "width": 1896
+            }],
+            "place_id": "ChIJ61kXOiGZ4jARg4ZDvWQBQDg",
+            "plus_code": {
+                "compound_code": "PGQ7+V9 Bangkok, Thailand",
+                "global_code": "7P52PGQ7+V9"
+            },
+            "price_level": 2,
+            "rating": 4.1,
+            "reference": "ChIJ61kXOiGZ4jARg4ZDvWQBQDg",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 325,
+            "vicinity": "69-71 Thanon Rama IV, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7391955, "lng": 100.5120111 },
+                "viewport": {
+                    "northeast": { "lat": 13.7405016302915, "lng": 100.5133137802915 },
+                    "southwest": { "lat": 13.7378036697085, "lng": 100.5106158197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Kitchen Kam-Lung Hong Kong",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112051541816005529493\">Oil Suebsiri T.</a>"
+                ],
+                "photo_reference": "AUjq9jmqxLwywbP_haS_8vedqOdRq-1ZFXOeJwu-yIdzlY1TonMX-7IKYoS512K2lLZdnMbh_7xD3W6n997qAHnAUd3x4EO7R3atD9FWHmaBwdtvvDGp92lIV7cjMlhVuOFzp13JUj16zNbfGmgGae46bWZwznf45Ufq-d11vqJirRfauWcJ",
+                "width": 4000
+            }],
+            "place_id": "ChIJv41A9SGZ4jARH7VRGJoD74E",
+            "plus_code": {
+                "compound_code": "PGQ6+MR Bangkok, Thailand",
+                "global_code": "7P52PGQ6+MR"
+            },
+            "rating": 4.5,
+            "reference": "ChIJv41A9SGZ4jARH7VRGJoD74E",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 158,
+            "vicinity": "519, 521 523 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7416631, "lng": 100.5108596 },
+                "viewport": {
+                    "northeast": { "lat": 13.7429781802915, "lng": 100.5121797302915 },
+                    "southwest": { "lat": 13.7402802197085, "lng": 100.5094817697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Satay Jae Aeng",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113154483099424845011\">Jennifer Wilson</a>"
+                ],
+                "photo_reference": "AUjq9jlmw0jaf5ePd_Shh7D3-g6zMOJcttYD7DccPlBGUmnLlX8K2rb3k1etxZWyX2Xz06Lxh4BW7bSDd_8VjxRM34Q3SUdjfQtijXT9CE3RU0-zvEnN5sGqq2-nURNHA_wsfHwclUVJkUSR_ut182Zaq04KkjnC3gyDWD92z5Fk9AeIaYgI",
+                "width": 4032
+            }],
+            "place_id": "ChIJH9K3wyaZ4jARu-DwxZtHjcs",
+            "plus_code": {
+                "compound_code": "PGR6+M8 Bangkok, Thailand",
+                "global_code": "7P52PGR6+M8"
+            },
+            "price_level": 2,
+            "rating": 4.2,
+            "reference": "ChIJH9K3wyaZ4jARu-DwxZtHjcs",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 135,
+            "vicinity": "105, 107 Thanon Rama IV, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7393079, "lng": 100.5105542 },
+                "viewport": {
+                    "northeast": { "lat": 13.7406659302915, "lng": 100.5119072802915 },
+                    "southwest": { "lat": 13.7379679697085, "lng": 100.5092093197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Easae Coffee Shop",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111668136632256692727\">Kwanruen Channel</a>"
+                ],
+                "photo_reference": "AUjq9jkYj-hBhgpQTOgbD-7Nn4nk2NlDwaaP3LC8qDF5cWGQALIZGOE9ZPPcBc1uoGaWElV5STusdPuMgsmsidqTtdlaUYogry9YbEbZ5wqIAASrDEeQ-NEmCuwwN_Nc7XXKdBuHT7gG1G355N8JbqNpUEM-Q8i8fxxKV_r8WevbJ9F99ef6",
+                "width": 3024
+            }],
+            "place_id": "ChIJ5dv-CSGZ4jAR2AAgkkWSfxs",
+            "plus_code": {
+                "compound_code": "PGQ6+P6 Bangkok, Thailand",
+                "global_code": "7P52PGQ6+P6"
+            },
+            "price_level": 1,
+            "rating": 4.2,
+            "reference": "ChIJ5dv-CSGZ4jAR2AAgkkWSfxs",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "bakery",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 273,
+            "vicinity": "103, 105 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7400381, "lng": 100.5140312 },
+                "viewport": {
+                    "northeast": { "lat": 13.7413797302915, "lng": 100.5154076802915 },
+                    "southwest": { "lat": 13.7386817697085, "lng": 100.5127097197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+            "name": "BROWN SUGAR",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 1868,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111911768074064258313\">gummo s.</a>"
+                ],
+                "photo_reference": "AUjq9jn-EmhXXbIayTt3wMGhVnmmQYJ6r6xGqRY5rn5ilWRta3PvP6-fjHKSEoWYZvA77aKXzZNw24v9PRzqqBCd0H9MAUY1RxlHs6BWaCRRnvMX0XhRRkAfV8zOwhWIRxWGy-gXYAt0L6G0azi9n-BSXskx5Nn9fRUVPbBomTv53nohdwK8",
+                "width": 3410
+            }],
+            "place_id": "ChIJvVYzLGuZ4jARIaO0mY6LjWw",
+            "plus_code": {
+                "compound_code": "PGR7+2J Bangkok, Thailand",
+                "global_code": "7P52PGR7+2J"
+            },
+            "price_level": 2,
+            "rating": 4.3,
+            "reference": "ChIJvVYzLGuZ4jARIaO0mY6LjWw",
+            "scope": "GOOGLE",
+            "types": [
+                "night_club",
+                "bar",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ],
+            "user_ratings_total": 786,
+            "vicinity": "18 \u0e0b\u0e2d\u0e22 \u0e19\u0e32\u0e19\u0e32, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7403573, "lng": 100.5109733 },
+                "viewport": {
+                    "northeast": { "lat": 13.7416930802915, "lng": 100.5123224302915 },
+                    "southwest": { "lat": 13.7389951197085, "lng": 100.5096244697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Hoy Kraeng Pa Jeen (The Cockle Bar)",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/118298018263575608087\">JJ A</a>"
+                ],
+                "photo_reference": "AUjq9jm-tKSAjbmcjZu4WicF5nS90lGT5xi4Ic11avq_tfbmUH9XRNVoI5aGI5Hleitm7kgmhWPZ7ilXggzBRoaVCZh_0Mj5EvJFEjx4WnbguY1vuQPUqO5DoNbDjZUwG225OB6C9WXPoNAlsh2W79BwgyPwVkBJqhsmX3B1b3hGi_37JEes",
+                "width": 4032
+            }],
+            "place_id": "ChIJ73KQbyGZ4jARtqMoR7Ebnbk",
+            "plus_code": {
+                "compound_code": "PGR6+49 Bangkok, Thailand",
+                "global_code": "7P52PGR6+49"
+            },
+            "rating": 4,
+            "reference": "ChIJ73KQbyGZ4jARtqMoR7Ebnbk",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 29,
+            "vicinity": "42-44 Phadung Dao Road, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7399318, "lng": 100.5111873 },
+                "viewport": {
+                    "northeast": { "lat": 13.7412788302915, "lng": 100.5125740802915 },
+                    "southwest": { "lat": 13.7385808697085, "lng": 100.5098761197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Red Rose",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 470,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/118419051925544236709\">Red Rose Restaurant</a>"
+                ],
+                "photo_reference": "AUjq9jlBMbQmxT9GVGnkTux8M4Xu2cx4Y8cFz91CBHNOpZXFD2w1jRHppPpwuJTOAZRIL3Fp0Op7UglukItPxDyW9NQzV3bXo2pNxdBtqXPr6uMaN1rU48FJBTK7SKdczCLT4fvMRVUMNGZ_Okl0z7li7vGB1ICeakQrNtjSfsETg-HioXzz",
+                "width": 911
+            }],
+            "place_id": "ChIJm6rMFCGZ4jARNJaNcOScUvQ",
+            "plus_code": {
+                "compound_code": "PGQ6+XF Bangkok, Thailand",
+                "global_code": "7P52PGQ6+XF"
+            },
+            "rating": 4.3,
+            "reference": "ChIJm6rMFCGZ4jARNJaNcOScUvQ",
+            "scope": "GOOGLE",
+            "types": [
+                "night_club",
+                "bar",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ],
+            "user_ratings_total": 299,
+            "vicinity": "481 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7399433, "lng": 100.5109317 },
+                "viewport": {
+                    "northeast": { "lat": 13.7412203802915, "lng": 100.5122345302915 },
+                    "southwest": { "lat": 13.7385224197085, "lng": 100.5095365697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Jae Fai Orange Juice",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116567032263061793057\">Tosapon Amornpitpratya</a>"
+                ],
+                "photo_reference": "AUjq9jndP8KBSmWJuvkyxEd6Mo6B2VpJ41Tnpyno5JRurpCXr2SAdi6C_re7VTzyBINathkVzgNZ2Vn4LGjfcPfYPhitwPDGAFGGiar3CaFftu1-MlYJUHsxp5zRNOXRUrL5DgvP5yagvRoOuGOsFFvCOg-QVFpsZZzwEbfnmUA4ATwutcPV",
+                "width": 3024
+            }],
+            "place_id": "ChIJh6ZlbCGZ4jARUzC7agcROJQ",
+            "plus_code": {
+                "compound_code": "PGQ6+X9 Bangkok, Thailand",
+                "global_code": "7P52PGQ6+X9"
+            },
+            "rating": 4.6,
+            "reference": "ChIJh6ZlbCGZ4jARUzC7agcROJQ",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 34,
+            "vicinity": "469 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7403331, "lng": 100.5104788 },
+                "viewport": {
+                    "northeast": { "lat": 13.7415706802915, "lng": 100.5117595802915 },
+                    "southwest": { "lat": 13.7388727197085, "lng": 100.5090616197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Hia Tue Yawarat. \u0e23\u0e49\u0e32\u0e19\u0e40\u0e2e\u0e35\u0e22\u0e15\u0e37\u0e2d \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104248372580621665629\">Teerasak Athiphunamphai</a>"
+                ],
+                "photo_reference": "AUjq9jkdtDcfw52B-fY_1VXEIJN9KKusq6iJvw9oRSG3nM2pa2bulX0bcToK9amOyk_Su3JGzYS14in8uZAbrnrbh9N8QU8TPa7QON1YrWXwwMASKUf82MvL400e5rIyQM90_68yWUdqNcMLxFx9tPmXQW1ehr4TSZjTLuzSqmw3WJiEumvB",
+                "width": 4032
+            }],
+            "place_id": "ChIJgbGscSGZ4jARGxZJw-mwCBE",
+            "plus_code": {
+                "compound_code": "PGR6+45 Bangkok, Thailand",
+                "global_code": "7P52PGR6+45"
+            },
+            "rating": 4.2,
+            "reference": "ChIJgbGscSGZ4jARGxZJw-mwCBE",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "point_of_interest", "food", "establishment"],
+            "user_ratings_total": 42,
+            "vicinity": "445 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7401022, "lng": 100.5122168 },
+                "viewport": {
+                    "northeast": { "lat": 13.7414647802915, "lng": 100.5136140802915 },
+                    "southwest": { "lat": 13.73876681970849, "lng": 100.5109161197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "Kan Kee Nam Tao Thong (2444 B.E.) \u53cc\u846b\u82a6\u51c9\u8336 (1901)",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102604773926513374499\">Ratchapas Ant</a>"
+                ],
+                "photo_reference": "AUjq9jmH_ZI1AIkTKPgk89MXT_z27HJnDavuYrzd5AwBZ6l2K9GWBrcA8R64mHnCrnFW3umOEzqn-E6GbaRWGTbzfzMqqjOqInfmcNl0WeJbzzSxBQYDB_UWl3pidFhf2YicMI5aVTWMx5CfkI-b-mCVtkCKlNS22nAEoOn-kbvp8qZYUsFS",
+                "width": 3024
+            }],
+            "place_id": "ChIJfYq6Es5gHTERPtSpeRJh1k4",
+            "plus_code": {
+                "compound_code": "PGR6+2V Bangkok, Thailand",
+                "global_code": "7P52PGR6+2V"
+            },
+            "price_level": 1,
+            "rating": 4.8,
+            "reference": "ChIJfYq6Es5gHTERPtSpeRJh1k4",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ],
+            "user_ratings_total": 574,
+            "vicinity": "670 Charoen Krung Road, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7394446, "lng": 100.5116262 },
+                "viewport": {
+                    "northeast": { "lat": 13.7407484802915, "lng": 100.5129443802915 },
+                    "southwest": { "lat": 13.7380505197085, "lng": 100.5102464197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Ar Jiw",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 1152,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109028556025329417039\">CY Lee</a>"
+                ],
+                "photo_reference": "AUjq9jlFWKlix28uSHqusXiPHkpMamP3jNg2UNP7pPERfpAtFrPAaXgLHhSs3YTQhoOYvBv93tNK7ca9iQ7tfr1Ma9LhchapkHMkVZJssUwx0dFjEZot6OxoRJuk8kHyTFqnWlxfEFjx-a9qcc9g1YqbAZMkQdwXD20V23HdmBSNULHdVOFx",
+                "width": 2048
+            }],
+            "place_id": "ChIJH2fOPiGZ4jARcZUYE9l430k",
+            "plus_code": {
+                "compound_code": "PGQ6+QM Bangkok, Thailand",
+                "global_code": "7P52PGQ6+QM"
+            },
+            "rating": 4.4,
+            "reference": "ChIJH2fOPiGZ4jARcZUYE9l430k",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 5,
+            "vicinity": "495, 497 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7398342, "lng": 100.5105321 },
+                "viewport": {
+                    "northeast": { "lat": 13.7412401802915, "lng": 100.5119198802915 },
+                    "southwest": { "lat": 13.7385422197085, "lng": 100.5092219197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Konkrae (\u0e04\u0e19\u0e41\u0e04\u0e30) - \u0e41\u0e1e\u0e19\u0e40\u0e04\u0e49\u0e01\u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a",
+            "opening_hours": { "open_now": true },
+            "place_id": "ChIJf4tbciGZ4jARTOki8Kynpms",
+            "plus_code": {
+                "compound_code": "PGQ6+W6 Bangkok, Thailand",
+                "global_code": "7P52PGQ6+W6"
+            },
+            "rating": 3,
+            "reference": "ChIJf4tbciGZ4jARTOki8Kynpms",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 1,
+            "vicinity": "458 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7399069, "lng": 100.5104708 },
+                "viewport": {
+                    "northeast": { "lat": 13.7413012802915, "lng": 100.5118506802915 },
+                    "southwest": { "lat": 13.7386033197085, "lng": 100.5091527197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Sea Bah Bar",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 1568,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108665734103964435024\">Oyster bar\u200b by Sea bah\u200b bar</a>"
+                ],
+                "photo_reference": "AUjq9jkVvomuELnQEflvJ-RPM84adfz9jrbCPOm4xD6PT-7JIK2CNI4uC02-yG9cA6l_ZUQ-WXLJ5JO0DCRkxvdl54TVvDgCjl8tQp08KW8pskvCI2fLBOvgUQdwVqD5UR2MHma09ynHX9Vh3AfjvqXBqwu8CCDO1EgAUGCbdaE1S0v44Nh6",
+                "width": 1044
+            }],
+            "place_id": "ChIJyT1ydiGZ4jAR3ab8cUUFKgU",
+            "plus_code": {
+                "compound_code": "PGQ6+X5 Bangkok, Thailand",
+                "global_code": "7P52PGQ6+X5"
+            },
+            "rating": 4.3,
+            "reference": "ChIJyT1ydiGZ4jAR3ab8cUUFKgU",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 43,
+            "vicinity": "456 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7412767, "lng": 100.5110556 },
+                "viewport": {
+                    "northeast": { "lat": 13.7426643302915, "lng": 100.5124344302915 },
+                    "southwest": { "lat": 13.7399663697085, "lng": 100.5097364697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Krua Porn La Mai",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100416766700984890058\">\u0e2d\u0e23\u0e48\u0e2d\u0e22\u0e21\u0e32\u0e01\u0e1b\u0e32\u0e01\u0e19\u0e49\u0e4d\u0e32\u0e42\u0e1e Aroimak paknampho</a>"
+                ],
+                "photo_reference": "AUjq9jnnl35n73yLpqjV1i57Gk07zixNRRzt6KJ4vxXNGbONZzZOKXfmO5EtltgajUpxp0xEZ6IN4geBQ8BpDL69z3L4QlK6Oo9uhqe31OLHKODCsph9976btkSeAasXJ_U7HM7tKiUoyq1Wv-JN-SOeNjWCS_ALwW6MMPGYMj-Q4YEyboSA",
+                "width": 4000
+            }],
+            "place_id": "ChIJsSbzLyKZ4jAR7ZXNBe7UuaI",
+            "plus_code": {
+                "compound_code": "PGR6+GC Bangkok, Thailand",
+                "global_code": "7P52PGR6+GC"
+            },
+            "rating": 4.1,
+            "reference": "ChIJsSbzLyKZ4jAR7ZXNBe7UuaI",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 702,
+            "vicinity": "590, 592 Charoen Krung Road, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.740274, "lng": 100.5103161 },
+                "viewport": {
+                    "northeast": { "lat": 13.7415680802915, "lng": 100.5116315302915 },
+                    "southwest": { "lat": 13.7388701197085, "lng": 100.5089335697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Ah Tuer Shark Fin Soup",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111244347806477101896\">Kullapus Van Mourik</a>"
+                ],
+                "photo_reference": "AUjq9jkXoYHqDpH5S-6rMioUqeM1_GolkbDriHaMbdb85p0fqj4rvJORxMzK-vMP1N44CbjYZtMOWDpTJQQ3dnI_-gfdlW1cfFRNWyq3bUYK94qE1MemMfkJ3Cgkf7zuq1Idbuu1fl_Q3ZRx2i-JexW8lMJtAZYb30FsMxyxi-25dUb1-Tir",
+                "width": 4032
+            }],
+            "place_id": "ChIJ9QnNdiGZ4jARwAdG9dE9T5M",
+            "plus_code": {
+                "compound_code": "PGR6+44 Bangkok, Thailand",
+                "global_code": "7P52PGR6+44"
+            },
+            "rating": 3.6,
+            "reference": "ChIJ9QnNdiGZ4jARwAdG9dE9T5M",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 163,
+            "vicinity": "\u0e2b\u0e19\u0e49\u0e32\u0e18\u0e19\u0e32\u0e04\u0e32\u0e23\u0e01\u0e23\u0e38\u0e07\u0e28\u0e23\u0e35, 437 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7403747, "lng": 100.5102017 },
+                "viewport": {
+                    "northeast": { "lat": 13.7416559302915, "lng": 100.5115092802915 },
+                    "southwest": { "lat": 13.7389579697085, "lng": 100.5088113197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Yoo Fishball",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 540,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109963858139937898594\">\u0e22\u0e39\u0e49 \u0e25\u0e39\u0e01\u0e0a\u0e34\u0e49\u0e19\u0e1b\u0e25\u0e32\u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a</a>"
+                ],
+                "photo_reference": "AUjq9jnfCVfqjL_-IovNH6z2Yzfg9ovJeKLpULa0kMxXf8aDEPwiZJgigh_0PxtozO9zRb8PHLwUMQhzt3YVFy8p3F4fhXEHYeYGn4gw8XQoV1vMHYHA7E8ZAkyMsxK4AwIEfNNiQcGxyP1lFAGeIlzpNk8FfJJEFersKE-KwBJZvsgvJNly",
+                "width": 960
+            }],
+            "place_id": "ChIJf9HqdiGZ4jARc8ZomdsiYg8",
+            "plus_code": {
+                "compound_code": "PGR6+43 Bangkok, Thailand",
+                "global_code": "7P52PGR6+43"
+            },
+            "rating": 3.8,
+            "reference": "ChIJf9HqdiGZ4jARc8ZomdsiYg8",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 566,
+            "vicinity": "433 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7391917, "lng": 100.5106043 },
+                "viewport": {
+                    "northeast": { "lat": 13.7405699302915, "lng": 100.5119669302915 },
+                    "southwest": { "lat": 13.7378719697085, "lng": 100.5092689697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "\u0e2b\u0e39\u0e09\u0e25\u0e32\u0e21 F1 \u0e2b\u0e39\u0e09\u0e25\u0e32\u0e21\u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 871,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107913376573904330148\">\u0e2b\u0e39\u0e09\u0e25\u0e32\u0e21 F1 \u0e2b\u0e39\u0e09\u0e25\u0e32\u0e21\u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a</a>"
+                ],
+                "photo_reference": "AUjq9jnTiMdr94kb9JPCQmW3rMokPh4FHa2gmDp_fmIUfFQIzQU57Ew-FWxPHbntmPEAh2HU0Qrx_DR7eSTyJP1yG4_83jOOmXe3XC2Q00f9Z4hM8r5KEGUYCr_lYis9XZIMqsBEY3rnDteHoarImb5H95UI5LsqiCIy62Q18FxBNc_3pVAz",
+                "width": 1884
+            }],
+            "place_id": "ChIJ33QQECGZ4jARVBhhbph_7gg",
+            "plus_code": {
+                "compound_code": "PGQ6+M6 Bangkok, Thailand",
+                "global_code": "7P52PGQ6+M6"
+            },
+            "rating": 4.6,
+            "reference": "ChIJ33QQECGZ4jARVBhhbph_7gg",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 5,
+            "vicinity": "\u0e40\u0e25\u0e02\u0e17\u0e35\u0e48 96 \u0e16\u0e19\u0e19, Phat Sai, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7402324, "lng": 100.5098719 },
+                "viewport": {
+                    "northeast": { "lat": 13.7416363302915, "lng": 100.5112530302915 },
+                    "southwest": { "lat": 13.7389383697085, "lng": 100.5085550697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Sweettime",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 2976,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103556732908850282475\">Meall Mee</a>"
+                ],
+                "photo_reference": "AUjq9jkeE5T_dVov0KarLbpW90tx2apia86oV-_nho-KbnrviEsH-JuHH14Q3QefesCr8BKK9SmNjhSmxe8hlr8c0vGDWdIivK8OVF9DA76alTlrRP5OjROVqgh-QE3-5-TWh80jXtteokW1LevFQbQ26m2Z5edYihnj1xYZSZ5r9G9nx6Wy",
+                "width": 3968
+            }],
+            "place_id": "ChIJI5IJnSGZ4jAR_BRDFrSbdH0",
+            "plus_code": {
+                "compound_code": "PGR5+3W Bangkok, Thailand",
+                "global_code": "7P52PGR5+3W"
+            },
+            "price_level": 1,
+            "rating": 4.2,
+            "reference": "ChIJI5IJnSGZ4jAR_BRDFrSbdH0",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 206,
+            "vicinity": "436 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7388189, "lng": 100.5120148 },
+                "viewport": {
+                    "northeast": { "lat": 13.7402041302915, "lng": 100.5134129302915 },
+                    "southwest": { "lat": 13.7375061697085, "lng": 100.5107149697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "\u0e2a\u0e22\u0e32\u0e21\u0e23\u0e31\u0e07\u0e19\u0e01\u0e17\u0e30\u0e40\u0e25\u0e43\u0e15\u0e49",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 1080,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109593697670918724956\">Yongyut Yongyut</a>"
+                ],
+                "photo_reference": "AUjq9jnVZL2tKh0h7MNklDDXDzMSoz77uMpOsZfgl3ay-2r2q2QY1DIdadZ-LOAc9-N82TqljZJ5Eo1bsZscwbr-4ANtcgfAHJqv3NIFB4JQVD_TYEnmkp6GOygczn6Rxl0ghfrQQuzznOnScvT66Ca1Pzj_k7c2Gkknm_ET76i7ehX8e7vI",
+                "width": 1920
+            }],
+            "place_id": "ChIJrY6QJSGZ4jARAjtVgo3aoOM",
+            "plus_code": {
+                "compound_code": "PGQ6+GR Bangkok, Thailand",
+                "global_code": "7P52PGQ6+GR"
+            },
+            "rating": 4.2,
+            "reference": "ChIJrY6QJSGZ4jARAjtVgo3aoOM",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 6,
+            "vicinity": "566, 568 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7413005, "lng": 100.5099008 },
+                "viewport": {
+                    "northeast": { "lat": 13.7426166802915, "lng": 100.5113001302915 },
+                    "southwest": { "lat": 13.7399187197085, "lng": 100.5086021697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Plaeng Nam Chicken Rice",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106738097588782537978\">S Kwang</a>"
+                ],
+                "photo_reference": "AUjq9jlQqOXxq42Bkc97k4aVqnjD_3akDGMu8Cu960I2gGzHyApHPYH6IhwY5ptUiIwDEXW9_xz4u1tTMvndoi3H-Uo7WN4g_-ddoZ3tBmUHfPBvk7XsO326eOi1bumAvYRwA-9584gfMcrj2WqT6te7HFuUKLX_FIe5XuBkXTFYg8h6KmX3",
+                "width": 4032
+            }],
+            "place_id": "ChIJk-LIfyGZ4jARcJLBQUqUFfE",
+            "plus_code": {
+                "compound_code": "PGR5+GX Bangkok, Thailand",
+                "global_code": "7P52PGR5+GX"
+            },
+            "rating": 4,
+            "reference": "ChIJk-LIfyGZ4jARcJLBQUqUFfE",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 171,
+            "vicinity": "\u0e40\u0e02\u0e15\u0e2a\u0e31 \u0e21\u0e1e\u0e31\u0e19\u0e18\u0e27\u0e07\u0e28\u0e4c, 32 Plaeng Nam Road, Khwaeng Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7420395, "lng": 100.5104269 },
+                "viewport": {
+                    "northeast": { "lat": 13.7433369802915, "lng": 100.5117308302915 },
+                    "southwest": { "lat": 13.7406390197085, "lng": 100.5090328697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Khao Kha Moo Sai Tua Jae Ta",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 2880,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/118259093745616216243\">Sirilug Trakarnkeerati</a>"
+                ],
+                "photo_reference": "AUjq9jmON37kBhXfvLq2JjLZtbafLqXFFN2q-rzzZORFAiTSns2Sz6Is9FbMwR7k-Ky-gyWEPyn4TajNiubfClwa6pwKwxmCcB91Q9_GzxeAZ6Wve1FXat0xMlgXrEhR63Wbr-_X0_wpydSLqVKBOaU9XQaQTrnF26gzZG-EpmUcjhnk2Uhr",
+                "width": 3840
+            }],
+            "place_id": "ChIJrUiQXyGZ4jAR6HZAhYZlll0",
+            "plus_code": {
+                "compound_code": "PGR6+R5 Bangkok, Thailand",
+                "global_code": "7P52PGR6+R5"
+            },
+            "rating": 4,
+            "reference": "ChIJrUiQXyGZ4jAR6HZAhYZlll0",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 161,
+            "vicinity": "501 Charoen Krung Road, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7422947, "lng": 100.5115306 },
+                "viewport": {
+                    "northeast": { "lat": 13.7437160302915, "lng": 100.5128879302915 },
+                    "southwest": { "lat": 13.7410180697085, "lng": 100.5101899697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Pa Lek-Pa Yai mango sticky rice (\u0e02\u0e49\u0e32\u0e27\u0e40\u0e2b\u0e19\u0e35\u0e22\u0e27\u0e21\u0e30\u0e21\u0e48\u0e27\u0e07\u0e1b\u0e49\u0e32\u0e40\u0e25\u0e47\u0e01-\u0e1b\u0e49\u0e32\u0e43\u0e2b\u0e0d\u0e48)",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117901827244049778195\">Luie Saetang</a>"
+                ],
+                "photo_reference": "AUjq9jnLN1zY9Cnxmv2BcKAAvn2_47IiCzsle2-YjvyezLd2zsUHE-TvapxxhJ6GEQI68A7qRjzgUhme3rSbTzFoBQtUImXLqMfk8hUQ1yI0m7bmEpZrkzgG7Oq4_d4_hztaAxKClJKPCdh2lw0hGDlqEofOF4YHKzoh-ObaKTeR9euTubDZ",
+                "width": 4032
+            }],
+            "place_id": "ChIJc7_HCCSZ4jARW4TDv8uyL4w",
+            "plus_code": {
+                "compound_code": "PGR6+WJ Bangkok, Thailand",
+                "global_code": "7P52PGR6+WJ"
+            },
+            "price_level": 2,
+            "rating": 4.2,
+            "reference": "ChIJc7_HCCSZ4jARW4TDv8uyL4w",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 174,
+            "vicinity": "164 Thanon Santiphap, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7403239, "lng": 100.5140143 },
+                "viewport": {
+                    "northeast": { "lat": 13.7416309302915, "lng": 100.5153509802915 },
+                    "southwest": { "lat": 13.7389329697085, "lng": 100.5126530197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+            "name": "Ba hao \u516b\u865f",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 634,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108474142743707126763\">Ba hao \u516b\u865f</a>"
+                ],
+                "photo_reference": "AUjq9jnXAmn5_o1at170MCPSJhb83wb-D7GikwpyrG9AZSFJxS31YWtEC8yW7bJmLDytfdfI7rwUYqzlNnE-2136feuOgpRixNn-qk6mzogRys2w2omN88yqAuOPkQ6mh1mSmJHigFlwNtr0PDxc7E9Basu8-VC1E1q2z8EbHfYwQwzlhdLV",
+                "width": 1125
+            }],
+            "place_id": "ChIJRTJGvSaZ4jARbspb9Zzuahc",
+            "plus_code": {
+                "compound_code": "PGR7+4J Bangkok, Thailand",
+                "global_code": "7P52PGR7+4J"
+            },
+            "price_level": 2,
+            "rating": 4.6,
+            "reference": "ChIJRTJGvSaZ4jARbspb9Zzuahc",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 647,
+            "vicinity": "8 \u0e0b\u0e2d\u0e22 \u0e19\u0e32\u0e19\u0e32, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.741031, "lng": 100.508711 },
+                "viewport": {
+                    "northeast": { "lat": 13.7423367302915, "lng": 100.5100362802915 },
+                    "southwest": { "lat": 13.7396387697085, "lng": 100.5073383197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Lim Ngee Hieng",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111166835846832756433\">Joe the Kop</a>"
+                ],
+                "photo_reference": "AUjq9jkgGDc6Ki6wlN6cRBlWzDY5o_MqGTXyP0CK5Wiz1G-10jUVR0IVtHXOAWQ0sdGbGqJUvaqPKxkq9ZlB73rkpuq8mrCfS8klk9FaQGvl66AYm-s1-fTTYc9LWY609JRZhdOY5EA3fkgJnCjQp33-RflRP7v_G4yHIrrGwFtFnefBzPI4",
+                "width": 4032
+            }],
+            "place_id": "ChIJEwLj9SGZ4jARtcNRNIRb8yc",
+            "plus_code": {
+                "compound_code": "PGR5+CF Bangkok, Thailand",
+                "global_code": "7P52PGR5+CF"
+            },
+            "rating": 4.5,
+            "reference": "ChIJEwLj9SGZ4jARtcNRNIRb8yc",
+            "scope": "GOOGLE",
+            "types": [
+                "store",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 15,
+            "vicinity": "301 \u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7394319, "lng": 100.5139707 },
+                "viewport": {
+                    "northeast": { "lat": 13.7407854302915, "lng": 100.5153035802915 },
+                    "southwest": { "lat": 13.7380874697085, "lng": 100.5126056197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+            "name": "El Chiringuito",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 721,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110223986656301895451\">El Chiringuito</a>"
+                ],
+                "photo_reference": "AUjq9jkUx-mS5FXmChTUv6ejvE10e8v6LIk_UMB2zz83J59p5oLjXpfiU701OM7iJ1AcOYLnudPC0xDrwSKjA1j82-5B5m-iidGRkj3I2H8J7_PADVD0rBq18GX8xmi30MT3-HKCP9wrM19GCLHPmdXynvSby4RMsjvS_pR5FhiuLeFMDHqT",
+                "width": 1600
+            }],
+            "place_id": "ChIJ828GwSaZ4jARcbCZdGIptd4",
+            "plus_code": {
+                "compound_code": "PGQ7+QH Bangkok, Thailand",
+                "global_code": "7P52PGQ7+QH"
+            },
+            "price_level": 2,
+            "rating": 4.4,
+            "reference": "ChIJ828GwSaZ4jARcbCZdGIptd4",
+            "scope": "GOOGLE",
+            "types": [
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 163,
+            "vicinity": "221 \u0e0b\u0e2d\u0e22 \u0e19\u0e32\u0e19\u0e32, Khwaeng Pom Prap, Khet Pom Prap Sattru Phai"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7423244, "lng": 100.509377 },
+                "viewport": {
+                    "northeast": { "lat": 13.7437887802915, "lng": 100.5108222802915 },
+                    "southwest": { "lat": 13.7410908197085, "lng": 100.5081243197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Tang Tek Yong Limited Partnership",
+            "opening_hours": { "open_now": false },
+            "place_id": "ChIJ70gkRSeZ4jAR4J2d5H_gu_E",
+            "plus_code": {
+                "compound_code": "PGR5+WQ Bangkok, Thailand",
+                "global_code": "7P52PGR5+WQ"
+            },
+            "reference": "ChIJ70gkRSeZ4jAR4J2d5H_gu_E",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "vicinity": "16-20 Charoen Krung Road, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7414346, "lng": 100.5086475 },
+                "viewport": {
+                    "northeast": { "lat": 13.7427682302915, "lng": 100.5100259302915 },
+                    "southwest": { "lat": 13.74007026970849, "lng": 100.5073279697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "\u0e08\u0e36\u0e07 \u0e08\u0e34\u0e1a \u0e44\u0e16\u0e48",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 673,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116237641309773465136\">\u0e08\u0e36\u0e07 \u0e08\u0e34\u0e1a \u0e44\u0e16\u0e48</a>"
+                ],
+                "photo_reference": "AUjq9jlySeU7ICMq2wbGn3o_Od2rFTC4H6EheMPyt3CoYauINKztsO1FTe0vidDcK0a18zOquUjoPu-97C0tHVqrS8ltvXfS7v7FAS0z-9jaJ4xTe_DYpxVyBfqXPf9JO3sz3pgU7kVrp73sZEjUP34N7jydvyrUrS1F-tIR26AA_ZMG97cg",
+                "width": 1200
+            }],
+            "place_id": "ChIJXTZBICKZ4jARvg2zf8G0KoA",
+            "plus_code": {
+                "compound_code": "PGR5+HF Bangkok, Thailand",
+                "global_code": "7P52PGR5+HF"
+            },
+            "rating": 4,
+            "reference": "ChIJXTZBICKZ4jARvg2zf8G0KoA",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 5,
+            "vicinity": "\u0e16\u0e19\u0e19 \u0e40\u0e22\u0e32\u0e27\u0e23\u0e32\u0e0a, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7422769, "lng": 100.5091296 },
+                "viewport": {
+                    "northeast": { "lat": 13.7436126802915, "lng": 100.5105047802915 },
+                    "southwest": { "lat": 13.7409147197085, "lng": 100.5078068197085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "\u0e40\u0e25\u0e48\u0e07\u0e2b\u0e21\u0e48\u0e27\u0e22 \u0e2d\u0e32\u0e2b\u0e32\u0e23\u0e40\u0e08",
+            "opening_hours": { "open_now": false },
+            "place_id": "ChIJM2IlNiKZ4jAR0HT9XI5uNhk",
+            "plus_code": {
+                "compound_code": "PGR5+WM Bangkok, Thailand",
+                "global_code": "7P52PGR5+WM"
+            },
+            "rating": 5,
+            "reference": "ChIJM2IlNiKZ4jAR0HT9XI5uNhk",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 4,
+            "vicinity": "136/1 Soi Charoen Krung 16, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7424251, "lng": 100.5092537 },
+                "viewport": {
+                    "northeast": { "lat": 13.7437727302915, "lng": 100.5106055302915 },
+                    "southwest": { "lat": 13.7410747697085, "lng": 100.5079075697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "HKN Hong Kong Noodle",
+            "opening_hours": { "open_now": false },
+            "photos": [{
+                "height": 3000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110644698344576553307\">Mr.Sanpong Chantalert</a>"
+                ],
+                "photo_reference": "AUjq9jkHpaqdt_37fakBf0r4ePxJysu89lzBTI8_yl6XZ4LGutDx7-ipyefutr7BgHSaZ7En_HQRjEMKwH7JEvvwuBIt9WB3HdUCVEaq_Og1IfjXaYwHvUe4Af9sF2Ybdo-JdQ5G5Y-bcuiPj5IoQgWvwKjG58yT68l3uaf2icD3_syR6x2L",
+                "width": 3000
+            }],
+            "place_id": "ChIJ0bBprSOZ4jARreyZCMOFtvo",
+            "plus_code": {
+                "compound_code": "PGR5+XP Bangkok, Thailand",
+                "global_code": "7P52PGR5+XP"
+            },
+            "price_level": 2,
+            "rating": 4.2,
+            "reference": "ChIJ0bBprSOZ4jARreyZCMOFtvo",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 316,
+            "vicinity": "136/4 Soi Charoen Krung 16, Khwaeng Samphanthawong, Khet Samphanthawong"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": { "lat": 13.7407561, "lng": 100.5083276 },
+                "viewport": {
+                    "northeast": { "lat": 13.7420953802915, "lng": 100.5096891302915 },
+                    "southwest": { "lat": 13.7393974197085, "lng": 100.5069911697085 }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+            "name": "Fikeaw",
+            "opening_hours": { "open_now": true },
+            "photos": [{
+                "height": 1537,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107446206961120861788\">Fikeaw</a>"
+                ],
+                "photo_reference": "AUjq9jn5Vkk3xpsdU8zh7yihy6zQAKfaGwezimxucYkmuK76MzLa4PT5Q8xw_WcjGc3MhBnEOoug4zqmV1jPomZ4-XthIrYbYlAX57ihykFS0hj29I79B_xWJADXzp_5O0i4pERyuiy0SV5SdWGgedJCCZ-4ADklE0jXyWAfJ1PuG8tvdSTE",
+                "width": 1536
+            }],
+            "place_id": "ChIJd5aTUzswEBERxUd4l-c4a4k",
+            "plus_code": {
+                "compound_code": "PGR5+88 Bangkok, Thailand",
+                "global_code": "7P52PGR5+88"
+            },
+            "rating": 4.4,
+            "reference": "ChIJd5aTUzswEBERxUd4l-c4a4k",
+            "scope": "GOOGLE",
+            "types": ["restaurant", "food", "point_of_interest", "establishment"],
+            "user_ratings_total": 641,
+            "vicinity": "Soi Yaowarat 11, Khwaeng Chakkrawat, Khet Samphanthawong"
+        }
+    ]
+}
