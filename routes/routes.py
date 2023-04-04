@@ -26,8 +26,8 @@ def generate_route(
     start_id: str | None = None,
     end_id: str | None = None,
     n_stops: int = 3,
-    d_p2p: int = 2000,
-    tags: list[str] = ['0', '1', '2'],
+    d_p2p: int = 1000,
+    tags: Annotated[list[str], Query()] = ['restaurant', 'cafe', 'art_gallery'],
     is_test: bool = False
 ):
     coord_list = generator_service.recommend_places(

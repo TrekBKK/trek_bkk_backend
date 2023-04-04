@@ -182,7 +182,7 @@ def recommend_places(
             icon="https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_dharma-71.png",
             latitude=13.7429042,
             longitude=100.5092772,
-            name="Wat Traimit Withayaram Worawihan",
+            name="Wat Mangkon Kamalawat (Wat Leng Noei Yi)",
             rating=4.5,
             types=[
                 "tourist_attraction",
