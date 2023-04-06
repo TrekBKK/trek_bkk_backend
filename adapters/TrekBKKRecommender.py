@@ -103,6 +103,7 @@ class TrekBKKRecommender:
                 # filter places that are within search area
                 mask = gdf_3857['geometry'].intersection(f)
                 in_radius_gdf = self.gdf[~mask.is_empty]
+                # if there are no places in search area, set its center as interested point
                 if in_radius_gdf.empty:
                     interested_point = Point(search_long, search_lat)
                 else:
