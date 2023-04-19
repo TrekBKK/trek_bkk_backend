@@ -93,7 +93,7 @@ def nearby_search(src_id: str, dest_id: str, stops: int, tags: list[str]):
 
         raw = res.json()["results"]
 
-    if len(raw) < 60:
+    while len(raw) < 60 and res.json().get("next_page_token"):
         res = requests.get(
             url,
             params={"pagetoken": res.json()["next_page_token"]},
@@ -134,7 +134,7 @@ def nearby_search(src_id: str, dest_id: str, stops: int, tags: list[str]):
     max_rating = 5
     max_user_ratings_total = max([place["user_ratings_total"] for place in places])
 
-    # Rank using the weighted product between rating and total number of rating
+    # Rank using weighted sum + log + penalty
     places_sorted = sorted(
         places,
         key=lambda x: (
@@ -153,9 +153,14 @@ def nearby_search(src_id: str, dest_id: str, stops: int, tags: list[str]):
     # Initialize list of recommended places
     recommended_places = []
 
+    # Unqualified places and index for edit route
+    unqualified = []
+    index = 0
+
     # Iterate over ranked places and exclude those that are too close to previously recommended places
-    for place in places_sorted:
+    for i, place in enumerate(places_sorted):
         if len(recommended_places) == stops:
+            index = i
             break
         if not recommended_places:
             recommended_places.append(place)
@@ -166,5 +171,13 @@ def nearby_search(src_id: str, dest_id: str, stops: int, tags: list[str]):
             ]
             if not any(close_distances):
                 recommended_places.append(place)
+            else:
+                unqualified.append(place)
 
-    return recommended_places
+    recommended_places.extend(unqualified)
+
+    while len(recommended_places) < 20:
+        recommended_places.append(places_sorted[index])
+        index += 1
+
+    return {"results": recommended_places, "routeIndex": stops + 2}
