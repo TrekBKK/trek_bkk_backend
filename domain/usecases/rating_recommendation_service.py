@@ -180,4 +180,4 @@ def nearby_search(src_id: str, dest_id: str, stops: int, tags: list[str]):
         recommended_places.append(places_sorted[index])
         index += 1
 
-    return {"results": recommended_places, "routeIndex": stops + 2}
+    return recommended_places
