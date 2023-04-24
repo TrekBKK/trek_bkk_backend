@@ -1,5 +1,6 @@
-from pydantic import BaseModel, Field
-from bson import ObjectId
+from pydantic import Field
+
+from domain.models.objectId import BaseModel, ObjectId
 
 
 class User(BaseModel):
