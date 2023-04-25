@@ -34,17 +34,7 @@ def find_all_by_key(searchKey: str, client: MongoClient):
 
             result = r.json()["result"]
 
-            waypoints.append(
-                {
-                    "place_id": result["place_id"],
-                    "name": result["name"],
-                    "location": [
-                        result["geometry"]["location"]["lat"],
-                        result["geometry"]["location"]["lng"],
-                    ],
-                    "types": result["types"],
-                }
-            )
+            waypoints.append(result)
 
         route["geocoded_waypoints"] = waypoints
 
@@ -83,22 +73,17 @@ def find_all_by_places(
         waypoints = []
         for waypoint in route["geocoded_waypoints"]:
             r = requests.get(
-                url + "place_id=" + waypoint["place_id"] + "&key=" + API_KEY
+                url,
+                params={
+                    "place_id": waypoint["place_id"],
+                    "fields": "place_id,name,geometry,types",
+                    "key": API_KEY,
+                },
             )
 
             result = r.json()["result"]
 
-            waypoints.append(
-                {
-                    "place_id": result["place_id"],
-                    "name": result["name"],
-                    "location": [
-                        result["geometry"]["location"]["lat"],
-                        result["geometry"]["location"]["lng"],
-                    ],
-                    "types": result["types"],
-                }
-            )
+            waypoints.append(result)
 
         route["geocoded_waypoints"] = waypoints
 
