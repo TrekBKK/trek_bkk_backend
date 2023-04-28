@@ -11,9 +11,9 @@ def get_users(user: User, client: MongoClient):
         _user = collection.find_one({"name": user.name, "email": user.email})
         if _user:
             return _user
-
-        userData = {"name": user.name, "email": user.email, "perference": {
-        }, "favorite_route": [], "places_history": {}}
+        print(user.name, user.photo)
+        userData = {"name": user.name, "email": user.email, "photo": user.photo,
+                    "perference": False, "favorite_route": [], "places_history": []}
         _id = collection.insert_one(userData).inserted_id
         userData["_id"] = _id
         return userData
