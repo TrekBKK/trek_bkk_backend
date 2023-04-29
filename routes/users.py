@@ -17,8 +17,22 @@ async def get_users():
 
 
 @router.post("/")
-def temp(user: User, client: MongoClient = Depends(get_mongo_client)):
-    a = user_service.get_users(user, client)
+def getUser(user: User, client: MongoClient = Depends(get_mongo_client)):
+    a = user_service.get_user(user, client)
     a["_id"] = str(a["_id"])
+
+    return responses.JSONResponse(content=a)
+
+
+@router.post("/favorite")
+def getFavoriteRoutes(user: User, client: MongoClient = Depends(get_mongo_client)):
+    a = user_service.get_favorite_routes(user, client)
+
+    return responses.JSONResponse(content=a)
+
+
+@router.post("/history")
+def getHistoryRoutes(user: User, client: MongoClient = Depends(get_mongo_client)):
+    a = user_service.get_history_routes(user, client)
 
     return responses.JSONResponse(content=a)
