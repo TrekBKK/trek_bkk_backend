@@ -96,7 +96,7 @@ def nearby_search(src_id: str, dest_id: str, stops: int, tags: list[str]):
     while len(raw) < 60 and res.json().get("next_page_token"):
         res = requests.get(
             url,
-            params={"pagetoken": res.json()["next_page_token"]},
+            params={"key": API_KEY, "pagetoken": res.json()["next_page_token"]},
         )
 
         raw = raw + res.json()["results"]
