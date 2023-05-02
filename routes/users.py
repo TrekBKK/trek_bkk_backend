@@ -20,7 +20,7 @@ async def get_users():
 def getUser(user: User, client: MongoClient = Depends(get_mongo_client)):
     a = user_service.get_user(user, client)
     a["_id"] = str(a["_id"])
-
+    print(a)
     return responses.JSONResponse(content=a)
 
 

@@ -16,6 +16,7 @@ router = APIRouter(prefix="/routes")
 @router.get("")
 def findAllByKey(searchKey: str, client: MongoClient = Depends(get_mongo_client)):
     res = search_service.find_all_by_key(searchKey, client)
+    print(res)
     return res
 
 
@@ -35,7 +36,7 @@ def generate_route(
     src_id: str,
     dest_id: str,
     stops: int,
-    tags: Annotated[list[str], Query()] = [],
+    tags: list[str] = Query(default=[]),
     useAlgorithm: bool = False,
 ):
     if useAlgorithm:
