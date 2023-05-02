@@ -1,6 +1,6 @@
 from bson import ObjectId
 from fastapi import HTTPException
-from pymongo import MongoClient
+from pymongo import MongoClient, ReturnDocument
 from domain.models import User
 import requests
 from dotenv import load_dotenv
@@ -19,7 +19,9 @@ def get_user(user: User, client: MongoClient):
             return _user
         print(user.name, user.photo)
         userData = {"name": user.name, "email": user.email, "photo": user.photo,
-                    "perference": False, "favorite_route": [], "places_history": []}
+                    "preference": {"distance": "",
+                                   "stop": "",
+                                   "type": []}, "favorite_route": [], "history_route": []}
         _id = collection.insert_one(userData).inserted_id
         userData["_id"] = _id
         return userData
@@ -65,11 +67,34 @@ def get_favorite_routes(user: User, client: MongoClient):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+def update_user_pref(user: User, client: MongoClient):
+    db = client.trekDB
+    col_user = db.user
+    try:
+        preference_data = {
+            "distance": user.preference["distance"],
+            "stop": user.preference["stop"],
+            "type": user.preference["type"]
+        }
+        query = {"name": user.name}
+        update = {"$set": {"preference": preference_data}}
+        user = col_user.find_one_and_update(
+            query,
+            update,
+            return_document=ReturnDocument.AFTER
+        )
+        if user:
+            return {"message": "Preference updated successfully"}
+        else:
+            raise HTTPException(status_code=404, detail="User not found")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 def get_history_routes(user: User, client: MongoClient):
     db = client.trekDB
     col_route = db.routes
     col_user = db.user
-    res = []
 
     try:
         doc_user = col_user.find_one(
