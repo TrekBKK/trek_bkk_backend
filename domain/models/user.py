@@ -5,8 +5,8 @@ from domain.models.objectId import BaseModel, ObjectId
 
 class User(BaseModel):
     id: ObjectId = Field(default_factory=ObjectId, alias="_id")
-    name: str
-    email: str
+    name: str | None = None
+    email: str | None = None
     photo: str | None = None
     favorite_route: list | None = None
     history_route: list | None = None

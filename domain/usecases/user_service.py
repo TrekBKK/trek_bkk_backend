@@ -67,6 +67,26 @@ def get_favorite_routes(user: User, client: MongoClient):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+def update_favorite_routes(user_id, route_id, client: MongoClient):
+    db = client.trekDB
+    col_user = db.user
+
+    try:
+        document = col_user.find_one({'_id': ObjectId(user_id)})
+        if document is None:
+            return {'message': 'Document not found.'}
+        favorite_route = document.get('favorite_route', [])
+        if route_id in favorite_route:
+            favorite_route.remove(route_id)
+        else:
+            favorite_route.append(route_id)
+        col_user.update_one({'_id': ObjectId(user_id)}, {
+                            '$set': {'favorite_route': favorite_route}})
+        return {'message': 'Favorite route updated successfully.'}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 def update_user_pref(user: User, client: MongoClient):
     db = client.trekDB
     col_user = db.user

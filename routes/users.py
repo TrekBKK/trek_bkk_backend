@@ -1,5 +1,4 @@
-from fastapi import APIRouter, Depends, responses
-
+from fastapi import APIRouter, Depends, responses, Request
 
 from pymongo import MongoClient
 
@@ -27,6 +26,15 @@ def getUser(user: User, client: MongoClient = Depends(get_mongo_client)):
 def getFavoriteRoutes(user: User, client: MongoClient = Depends(get_mongo_client)):
     a = user_service.get_favorite_routes(user, client)
 
+    return responses.JSONResponse(content=a)
+
+
+@router.patch("/favorite")
+async def updateRoute(request: Request, client: MongoClient = Depends(get_mongo_client)):
+    data = await request.json()
+    user_id = data["user_id"]
+    route_id = data["route_id"]
+    a = user_service.update_favorite_routes(user_id, route_id, client)
     return responses.JSONResponse(content=a)
 
 
