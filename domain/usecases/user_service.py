@@ -43,12 +43,12 @@ def get_favorite_routes(user: User, client: MongoClient):
         favorite_route_ids = doc_user["favorite_route"]
 
         query = {"_id": {"$in": [ObjectId(id) for id in favorite_route_ids]}}
-        projection = {"_id": False}
-        favorite_routes = col_route.find(query, projection)
+        favorite_routes = col_route.find(query)
         routes = list(favorite_routes)
 
         url = "https://maps.googleapis.com/maps/api/place/details/json?"
         for route in routes:
+            route["_id"] = str(route["_id"])
             waypoints = []
             for waypoint in route["geocoded_waypoints"]:
                 r = requests.get(
@@ -105,11 +105,11 @@ def get_history_routes(user: User, client: MongoClient):
         routes = doc_user["history_route"]
         route_ids = [subdocument.pop("route_id") for subdocument in routes]
         query = {"_id": {"$in": [ObjectId(id) for id in route_ids]}}
-        projection = {"_id": False}
 
-        history_routes = list(col_route.find(query, projection))
+        history_routes = list(col_route.find(query, ))
         url = "https://maps.googleapis.com/maps/api/place/details/json?"
         for route in history_routes:
+            route["_id"] = str(route["_id"])
             waypoints = []
             for waypoint in route["geocoded_waypoints"]:
                 r = requests.get(

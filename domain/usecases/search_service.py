@@ -12,15 +12,15 @@ def find_all_by_key(searchKey: str, client: MongoClient):
     collection = db.routes
 
     filter = {"$text": {"$search": searchKey}}
-    projection = {"_id": False}
 
-    routes = collection.find(filter, projection)
+    routes = collection.find(filter)
 
     routes = list(routes)
 
     url = "https://maps.googleapis.com/maps/api/place/details/json?"
 
     for route in routes:
+        route["_id"] = str(route["_id"])
         waypoints = []
         for waypoint in route["geocoded_waypoints"]:
             r = requests.get(
@@ -61,15 +61,15 @@ def find_all_by_places(
         if place_ids
         else {"$exists": True},
     }
-    projection = {"_id": False}
 
-    routes = collection.find(filter, projection)
+    routes = collection.find(filter)
 
     routes = list(routes)
 
     url = "https://maps.googleapis.com/maps/api/place/details/json?"
 
     for route in routes:
+        route["_id"] = str(route["_id"])
         waypoints = []
         for waypoint in route["geocoded_waypoints"]:
             r = requests.get(
