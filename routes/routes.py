@@ -1,12 +1,14 @@
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, Query, responses, Request
+from pydantic import BaseModel
 from pymongo import MongoClient
-from typing import Annotated
 
 from adapters.mongodb import get_mongo_client
+from domain.models.propose import ProposeInput
 from domain.usecases import (
     generator_service,
     search_service,
     rating_recommendation_service,
+    propose_service,
 )
 
 
@@ -46,3 +48,14 @@ def generate_route(
             src_id=src_id, dest_id=dest_id, stops=stops, tags=tags
         )
         return res
+
+
+@router.get("/propose")
+def find_proposed_routes():
+    return "healthy"
+
+
+@router.post("/propose")
+def propose_route(data: ProposeInput, client: MongoClient = Depends(get_mongo_client)):
+    res = propose_service.propose(data, client)
+    return responses.JSONResponse(content=res)
