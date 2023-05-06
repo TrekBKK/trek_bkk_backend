@@ -51,8 +51,9 @@ def generate_route(
 
 
 @router.get("/propose")
-def find_proposed_routes():
-    return "healthy"
+def find_proposed_routes(user_id: str, client: MongoClient = Depends(get_mongo_client)):
+    res = propose_service.find_all_by_user_id(user_id, client)
+    return responses.JSONResponse(content=res)
 
 
 @router.post("/propose")
