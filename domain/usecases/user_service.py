@@ -79,6 +79,9 @@ def get_history_routes(userId: str, client: MongoClient):
         if not doc_user:
             raise HTTPException(status_code=404, detail="User not found")
         history_user = doc_user["history_route"]
+        # if range(history_user) == 0:
+        #     return []
+
         history_route_ids = [route["route_id"] for route in history_user]
 
         query = {"_id": {"$in": [ObjectId(id) for id in history_route_ids]}}
@@ -161,20 +164,19 @@ def update_user_pref(user: User, client: MongoClient):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-# def get_history_routes(user, client: MongoClient):
-#     db = client.trekDB
-#     col_user = db.user
-#     try:
-#         doc_user = col_user.find_one(
-#             {"name": user["name"], "email": user["email"]})
+def update_history_routes(user, client: MongoClient):
+    db = client.trekDB
+    col_user = db.user
+    try:
+        doc_user = col_user.find_one(
+            {"_id": ObjectId(user["user_id"])})
 
-#         if doc_user:
-#             col_user.update_one({"name": user["name"], "email": user["email"]},
-#                                 {"$push": {"history_route": user["route"]}})
-#             return {"message": "history added successfully"}
-#         else:
-#             raise HTTPException(status_code=404, detail="User not found")
+        if doc_user:
+            col_user.update_one({"_id": ObjectId(user["user_id"])},
+                                {"$push": {"history_route": user["route"]}})
+            return {"message": "history added successfully"}
+        else:
+            raise HTTPException(status_code=404, detail="User not found")
 
-
-#     except Exception as e:
-#         raise HTTPException(status_code=500, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
