@@ -30,22 +30,21 @@ def get_user(user: User, client: MongoClient):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-def get_favorite_routes(user: User, client: MongoClient):
+def get_favorite_routes(userId: str, client: MongoClient):
     db = client.trekDB
     col_route = db.routes
     col_user = db.user
 
     try:
         doc_user = col_user.find_one(
-            {"name": user.name, "email": user.email}, {"favorite_route": 1, "_id": 0})
-        if not user:
+            {"_id": ObjectId(userId)}, {"favorite_route": 1, "_id": 0})
+
+        if not doc_user:
             raise HTTPException(status_code=404, detail="User not found")
         favorite_route_ids = doc_user["favorite_route"]
-
         query = {"_id": {"$in": [ObjectId(id) for id in favorite_route_ids]}}
         favorite_routes = col_route.find(query)
         routes = list(favorite_routes)
-
         url = "https://maps.googleapis.com/maps/api/place/details/json?"
         for route in routes:
             route["_id"] = str(route["_id"])
@@ -63,6 +62,55 @@ def get_favorite_routes(user: User, client: MongoClient):
                 waypoints.append(result)
             route["geocoded_waypoints"] = waypoints
         return routes
+    except HTTPException as e:
+        raise e
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+def get_history_routes(userId: str, client: MongoClient):
+    db = client.trekDB
+    col_route = db.routes
+    col_user = db.user
+
+    try:
+        doc_user = col_user.find_one(
+            {"_id": ObjectId(userId)}, {"history_route": 1, "_id": 0})
+        if not doc_user:
+            raise HTTPException(status_code=404, detail="User not found")
+        history_user = doc_user["history_route"]
+        history_route_ids = [route["route_id"] for route in history_user]
+
+        query = {"_id": {"$in": [ObjectId(id) for id in history_route_ids]}}
+        history_routes = col_route.find(query)
+        routes = list(history_routes)
+
+        url = "https://maps.googleapis.com/maps/api/place/details/json?"
+        for route in routes:
+            route["_id"] = str(route["_id"])
+
+            waypoints = []
+            for waypoint in route["geocoded_waypoints"]:
+                r = requests.get(
+                    url,
+                    params={
+                        "place_id": waypoint["place_id"],
+                        "fields": "place_id,name,geometry,types",
+                        "key": API_KEY,
+                    },
+                )
+                result = r.json()["result"]
+                waypoints.append(result)
+            route["geocoded_waypoints"] = waypoints
+
+        res = []
+        for item in history_user:
+            route_obj = [r for r in routes if r['_id'] == item['route_id']][0]
+            res.append({"route": route_obj, "timestamp": item["timestamp"]})
+
+        return res
+    except HTTPException as e:
+        raise e
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -74,7 +122,7 @@ def update_favorite_routes(user_id, route_id, client: MongoClient):
     try:
         document = col_user.find_one({'_id': ObjectId(user_id)})
         if document is None:
-            return {'message': 'Document not found.'}
+            raise HTTPException(status_code=404, detail="User not found")
         favorite_route = document.get('favorite_route', [])
         if route_id in favorite_route:
             favorite_route.remove(route_id)
@@ -83,6 +131,8 @@ def update_favorite_routes(user_id, route_id, client: MongoClient):
         col_user.update_one({'_id': ObjectId(user_id)}, {
                             '$set': {'favorite_route': favorite_route}})
         return {'message': 'Favorite route updated successfully.'}
+    except HTTPException as e:
+        raise e
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -111,20 +161,20 @@ def update_user_pref(user: User, client: MongoClient):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-def get_history_routes(user, client: MongoClient):
-    db = client.trekDB
-    col_user = db.user
-    try:
-        doc_user = col_user.find_one(
-            {"name": user["name"], "email": user["email"]})
+# def get_history_routes(user, client: MongoClient):
+#     db = client.trekDB
+#     col_user = db.user
+#     try:
+#         doc_user = col_user.find_one(
+#             {"name": user["name"], "email": user["email"]})
 
-        if doc_user:
-            col_user.update_one({"name": user["name"], "email": user["email"]},
-                                {"$push": {"history_route": user["route"]}})
-            return {"message": "history added successfully"}
-        else:
-            raise HTTPException(status_code=404, detail="User not found")
+#         if doc_user:
+#             col_user.update_one({"name": user["name"], "email": user["email"]},
+#                                 {"$push": {"history_route": user["route"]}})
+#             return {"message": "history added successfully"}
+#         else:
+#             raise HTTPException(status_code=404, detail="User not found")
 
 
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=str(e))

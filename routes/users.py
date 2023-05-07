@@ -22,9 +22,9 @@ def getUser(user: User, client: MongoClient = Depends(get_mongo_client)):
     return responses.JSONResponse(content=a)
 
 
-@router.post("/favorite")
-def getFavoriteRoutes(user: User, client: MongoClient = Depends(get_mongo_client)):
-    a = user_service.get_favorite_routes(user, client)
+@router.get("/favorite")
+def getFavoriteRoutes(user_id: str, client: MongoClient = Depends(get_mongo_client)):
+    a = user_service.get_favorite_routes(user_id, client)
 
     return responses.JSONResponse(content=a)
 
@@ -38,9 +38,9 @@ async def updateRoute(request: Request, client: MongoClient = Depends(get_mongo_
     return responses.JSONResponse(content=a)
 
 
-@router.post("/history")
-def getHistoryRoutes(user: User, client: MongoClient = Depends(get_mongo_client)):
-    a = user_service.get_history_routes(user, client)
+@router.get("/history")
+def getHistoryRoutes(user_id: str, client: MongoClient = Depends(get_mongo_client)):
+    a = user_service.get_history_routes(user_id, client)
 
     return responses.JSONResponse(content=a)
 
