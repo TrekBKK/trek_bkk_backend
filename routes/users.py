@@ -45,6 +45,16 @@ def getHistoryRoutes(user: User, client: MongoClient = Depends(get_mongo_client)
     return responses.JSONResponse(content=a)
 
 
+@router.patch("/history")
+async def getHistoryRoutes(request: Request, client: MongoClient = Depends(get_mongo_client)):
+    data = await request.json()
+    user = {"name": data["name"], "email": data["email"], "route": {
+        "route_id": data["route_id"], "timestamp": data["timestamp"]}}
+    a = user_service.get_history_routes(user, client)
+
+    return responses.JSONResponse(content=a)
+
+
 @router.patch("/pref")
 def updateUserPref(user: User, client: MongoClient = Depends(get_mongo_client)):
     a = user_service.update_user_pref(user, client)

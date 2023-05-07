@@ -111,42 +111,20 @@ def update_user_pref(user: User, client: MongoClient):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-def get_history_routes(user: User, client: MongoClient):
+def get_history_routes(user, client: MongoClient):
     db = client.trekDB
-    col_route = db.routes
     col_user = db.user
-
     try:
         doc_user = col_user.find_one(
-            {"name": user.name, "email": user.email}, {"history_route": 1, "_id": 0})
-        if not user:
+            {"name": user["name"], "email": user["email"]})
+
+        if doc_user:
+            col_user.update_one({"name": user["name"], "email": user["email"]},
+                                {"$push": {"history_route": user["route"]}})
+            return {"message": "history added successfully"}
+        else:
             raise HTTPException(status_code=404, detail="User not found")
 
-        routes = doc_user["history_route"]
-        route_ids = [subdocument.pop("route_id") for subdocument in routes]
-        query = {"_id": {"$in": [ObjectId(id) for id in route_ids]}}
 
-        history_routes = list(col_route.find(query, ))
-        url = "https://maps.googleapis.com/maps/api/place/details/json?"
-        for route in history_routes:
-            route["_id"] = str(route["_id"])
-            waypoints = []
-            for waypoint in route["geocoded_waypoints"]:
-                r = requests.get(
-                    url,
-                    params={
-                        "place_id": waypoint["place_id"],
-                        "fields": "place_id,name,geometry,types",
-                        "key": API_KEY,
-                    },
-                )
-                result = r.json()["result"]
-                waypoints.append(result)
-            route["geocoded_waypoints"] = waypoints
-
-        for i in range(len(routes)):
-            routes[i]["route"] = history_routes[i]
-
-        return routes
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
