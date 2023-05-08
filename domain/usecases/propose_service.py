@@ -1,6 +1,8 @@
+from datetime import datetime
 from fastapi import HTTPException
 from pymongo import MongoClient
 from domain.models import ProposeInput
+from utils import toThaiDate
 
 
 def propose(route: ProposeInput, client: MongoClient):
@@ -20,8 +22,23 @@ def find_all_by_user_id(user_id: str, client: MongoClient):
 
     try:
         query = {"user_id": user_id}
-        projection = {"_id": 0}
-        results = collection.find(query, projection).sort("_id", -1)
-        return list(results)
+
+        results = collection.aggregate(
+            [
+                {"$match": query},
+                {"$sort": {"_id": -1}},
+                {"$addFields": {"timestamp": {"$toDate": "$_id"}}},
+                {"$project": {"_id": 0}},
+            ]
+        )
+        results_list = list(results)
+
+        results_with_date = [
+            {**result, "timestamp": result.get("timestamp").strftime("%d/%m/%y")}
+            for result in results_list
+        ]
+
+        return results_with_date
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
