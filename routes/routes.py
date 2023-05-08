@@ -9,6 +9,7 @@ from domain.usecases import (
     search_service,
     rating_recommendation_service,
     propose_service,
+    route_generator_service
 )
 
 
@@ -40,9 +41,15 @@ def generate_route(
     stops: int,
     tags: list[str] = Query(default=[]),
     useAlgorithm: bool = False,
+    user_id: str | None = None,
+    client: MongoClient = Depends(get_mongo_client)
 ):
-    if useAlgorithm:
-        return
+    if useAlgorithm and user_id is not None:
+        res = route_generator_service.recommend_places(
+            src_id=src_id, dest_id=dest_id, stops=stops, tags=tags, 
+            user_id=user_id, client=client
+        )
+        return res
     else:
         res = rating_recommendation_service.nearby_search(
             src_id=src_id, dest_id=dest_id, stops=stops, tags=tags
