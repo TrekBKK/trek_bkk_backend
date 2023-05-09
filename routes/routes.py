@@ -9,7 +9,7 @@ from domain.usecases import (
     search_service,
     rating_recommendation_service,
     propose_service,
-    route_generator_service
+    route_generator_service,
 )
 
 
@@ -17,14 +17,14 @@ router = APIRouter(prefix="/routes")
 
 
 @router.get("")
-def findAllByKey(searchKey: str, client: MongoClient = Depends(get_mongo_client)):
+def find_all_by_key(searchKey: str, client: MongoClient = Depends(get_mongo_client)):
     res = search_service.find_all_by_key(searchKey, client)
     print(res)
     return res
 
 
 @router.get("/place")
-def findAllByPlace(
+def find_all_by_place(
     src_id: str | None = None,
     dest_id: str | None = None,
     place_ids: list[str] | None = Query(default=None),
@@ -42,12 +42,16 @@ def generate_route(
     tags: list[str] = Query(default=[]),
     useAlgorithm: bool = False,
     user_id: str | None = None,
-    client: MongoClient = Depends(get_mongo_client)
+    client: MongoClient = Depends(get_mongo_client),
 ):
     if useAlgorithm and user_id is not None:
         res = route_generator_service.recommend_places(
-            src_id=src_id, dest_id=dest_id, stops=stops, tags=tags, 
-            user_id=user_id, client=client
+            src_id=src_id,
+            dest_id=dest_id,
+            stops=stops,
+            tags=tags,
+            user_id=user_id,
+            client=client,
         )
         return res
     else:
