@@ -2,7 +2,6 @@ from datetime import datetime
 from fastapi import HTTPException
 from pymongo import MongoClient
 from domain.models import ProposeInput
-from utils import toThaiDate
 
 
 def propose(route: ProposeInput, client: MongoClient):
