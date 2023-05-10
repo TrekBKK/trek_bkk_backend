@@ -11,7 +11,9 @@ def find_all_by_key(searchKey: str, client: MongoClient):
     db = client.trekDB
     collection = db.routes
 
-    filter = {"$text": {"$search": searchKey}}
+    filter = (
+        {"$text": {"$search": searchKey}} if searchKey and searchKey[0] != ":" else {}
+    )
 
     routes = collection.find(filter)
 
@@ -88,3 +90,24 @@ def find_all_by_places(
         route["geocoded_waypoints"] = waypoints
 
     return routes
+
+
+def get_all_types(client: MongoClient):
+    db = client.trekDB
+    collection = db.routes
+
+    types = []
+
+    routes = collection.find({})
+
+    for route in routes:
+        for waypoint in route["geocoded_waypoints"]:
+            types += waypoint["types"]
+
+    no_duplicate = list(set(types))
+
+    to_be_removed = ["street_address", "establishment", "point_of_interest"]
+
+    result_list = [element for element in no_duplicate if element not in to_be_removed]
+
+    return result_list

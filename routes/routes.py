@@ -34,6 +34,12 @@ def find_all_by_place(
     return res
 
 
+@router.get("/types")
+def get_all_types(client: MongoClient = Depends(get_mongo_client)):
+    res = search_service.get_all_types(client)
+    return res
+
+
 @router.get("/generate")
 def generate_route(
     src_id: str,
