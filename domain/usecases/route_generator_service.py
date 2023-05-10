@@ -10,7 +10,10 @@ import requests
 from domain.models.place import Place
 from domain.models.user import User
 import pandas as pd
+import numpy as np
 from pytz import timezone
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVR
 
 load_dotenv()
 API_KEY = os.getenv("GOOGLE_API_KEY")
@@ -33,7 +36,7 @@ def get_place_related_detail(place_id: str):
     # wanted data: district, rating, types
     place_detail = requests.get(
         "https://maps.googleapis.com/maps/api/place/details/json",
-        params={"fields": "address_components,name,rating,types", 
+        params={"fields": "address_components,name,rating,types,geometry", 
                 "place_id": place_id, 
                 "key": API_KEY},
     ).json()["result"]
@@ -48,7 +51,9 @@ def get_place_related_detail(place_id: str):
         name=place_detail.get("name", 'NA'),
         rating=place_detail.get("rating", 0.5), 
         types=place_detail["types"], 
-        district=district
+        district=district,
+        latitude=place_detail["geometry"]["location"]["lat"],
+        longitude=place_detail["geometry"]["location"]["lng"]
     )
     return place_obj
 
@@ -95,7 +100,7 @@ def prepare_input(
     for t in types_list:
         is_place_tag = df["place_type"].apply(lambda tags: int(t in tags)).rename(t)
         is_pref_tag = df["pref_type"].apply(lambda tags: 10 * int(t in tags)).rename(t)
-        df[t] = is_place_tag.add(is_pref_tag)
+        df = pd.concat([df, is_place_tag.add(is_pref_tag)], axis=1)
     df = df.drop(columns=["place_type", "pref_type"])
 
     # create dummy variable for district
@@ -103,14 +108,36 @@ def prepare_input(
         districts_list = json.load(types_json)["districts"]
     for district in districts_list:
         is_district = df["district"].apply(lambda d: int(d == district)).rename(district)
-        df[district] = is_district
+        df = pd.concat([df, is_district], axis=1)
     df = df.drop(columns=["district"])
-    
+
     if for_train:
-        df = df.groupby(by=df.columns.tolist(), axis=0, as_index=False).size()
-        df = df.rename(columns={"size": "y"})
+        modified_df = df.copy()
+        modified_df = modified_df.groupby(by=modified_df.columns.tolist(), axis=0, as_index=False).size()
+        modified_df = modified_df.rename(columns={"size": "y"})
+        df = modified_df
 
     return df
+
+def map_id(
+        id_list: list[str] | list[list[str]],
+        target_id_list: list[list[str]]
+    ):
+    # flatten the list
+    flat_list = []
+    for lst in id_list:
+        flat_list.extend(lst)
+    id_array = np.array(flat_list)
+    id_array = np.unique(id_array)
+    # map index to id in dataframe
+    mapped_id_list = []
+    for lst in target_id_list:
+        mapped_id = []
+        for pid in lst:
+            idx = np.where(id_array == pid)[0][0]
+            mapped_id.append(idx)
+        mapped_id_list.append(mapped_id)
+    return (id_array, mapped_id_list)
 
 def calculate_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     """
@@ -170,7 +197,10 @@ def search_nearby_places(src_id: str, dest_id: str, stops: int, tags: list[str])
     res = requests.Response()
 
     if tags:
-        for tag in tags:
+        # ! don't forget to remove break in final ver.
+        for i, tag in enumerate(tags):
+            if i > 0:
+                break
             payload["type"] = tag
 
             res = requests.get(
@@ -188,13 +218,14 @@ def search_nearby_places(src_id: str, dest_id: str, stops: int, tags: list[str])
 
         raw = res.json()["results"]
 
-    while len(raw) < 60 and res.json().get("next_page_token"):
-        res = requests.get(
-            url,
-            params={"key": API_KEY, "pagetoken": res.json()["next_page_token"]},
-        )
+    # ! don't forget to un-comment in final ver.
+    # while len(raw) < 60 and res.json().get("next_page_token"):
+    #     res = requests.get(
+    #         url,
+    #         params={"key": API_KEY, "pagetoken": res.json()["next_page_token"]},
+    #     )
 
-        raw = raw + res.json()["results"]
+    #     raw = raw + res.json()["results"]
 
     unique_places = {}
 
@@ -215,11 +246,32 @@ def search_nearby_places(src_id: str, dest_id: str, stops: int, tags: list[str])
     # to make the list compatible with the prepare input function
     return [[p] for p in places]
 
+def prepare_response(
+        candidate_places: list[list[Place]],
+        recommended_idx: list[int]
+    ):
+    rec_list = []
+    i = 0
+    while (i < 20) and (i < len(recommended_idx)):
+        recommended_place = candidate_places[recommended_idx[i]][0]
+        place_dict = {
+            "place_id": recommended_place.place_id,
+            "name": recommended_place.name,
+            "geometry": {
+                "location": {
+                    "lat": recommended_place.latitude,
+                    "lng": recommended_place.longitude
+                }
+            }
+        }
+        rec_list.append(place_dict)
+    return rec_list
+
 def recommend_places(
         src_id: str, dest_id: str, stops: int, tags: list[str], 
         user_id: str, client: MongoClient
     ):
-    #### prepare data for training ####
+    #* #### prepare data for training ####
     user_data = get_item_by_id(_id=user_id, col_name="user", client=client)
     # data for user profile
     user_obj = User(_id=user_id, preference=user_data["preference"])    
@@ -239,6 +291,7 @@ def recommend_places(
     for waypoint_list in waypoint_in_route:
         places = []
         for i, waypoint in enumerate(waypoint_list):
+            # ! don't forget to remove break in final ver.
             if i > 0:
                 break
             place_id = waypoint["place_id"]
@@ -254,7 +307,8 @@ def recommend_places(
         place_feat=places_list, 
         hist_ctxt=hist_context
     )
-    #### prepare data for recommendation ####
+
+    #* #### prepare data for recommendation ####
     candidate_places = search_nearby_places(src_id=src_id, dest_id=dest_id, stops=stops, tags=tags)
     # get current datetime and check for daytime & weekend
     # to create context
@@ -268,4 +322,34 @@ def recommend_places(
         for_train=False
     )
 
-    return {"msg": "success so far"}
+    train_place_id = list(unique_places.keys())
+    # flatten the list then get the place_id
+    pred_place_id = [p.place_id for lst in candidate_places for p in lst]
+    #* map place_id in train and pred dataframe
+    id_array, mapped_id_list = map_id(
+        [train_place_id, pred_place_id],
+        [train_df["place_id"].tolist(), pred_df["place_id"].tolist()]
+    )
+    train_df["place_id"] = mapped_id_list[0]
+    pred_df["place_id"] = mapped_id_list[1]
+
+    #* #### train model ####
+    X = train_df.loc[:, train_df.columns != 'y'].values
+    y = train_df.loc[:, 'y'].values
+    y = y.reshape(-1, 1)
+    sc_y = StandardScaler()
+    y = sc_y.fit_transform(y)
+    y = y.reshape(-1)
+
+    regressor = SVR(kernel = 'rbf')
+    regressor.fit(X, y)
+
+    #* #### recommend places ####
+    X_pred = pred_df.loc[:, :].values
+    y_pred = regressor.predict(X_pred)
+    y_pred = sc_y.inverse_transform(y_pred.reshape(-1, 1)).reshape(-1)
+    pred_df = pd.concat([pred_df, pd.Series(y_pred, name='y_pred')], axis=1)
+    recommended_idx = pred_df.sort_values(by=['y_pred']).index.values.tolist()
+    recommended_places = prepare_response(candidate_places, recommended_idx)
+
+    return recommended_places

@@ -46,11 +46,11 @@ def generate_route(
     dest_id: str,
     stops: int,
     tags: list[str] = Query(default=[]),
-    useAlgorithm: bool = False,
+    use_algorithm: bool = False,
     user_id: str | None = None,
     client: MongoClient = Depends(get_mongo_client),
 ):
-    if useAlgorithm and user_id is not None:
+    if use_algorithm and user_id is not None:
         res = route_generator_service.recommend_places(
             src_id=src_id,
             dest_id=dest_id,
