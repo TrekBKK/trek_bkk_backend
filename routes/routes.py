@@ -6,6 +6,7 @@ from adapters.mongodb import get_mongo_client
 from domain.models.propose import ProposeInput
 from domain.usecases import (
     generator_service,
+    home_service,
     search_service,
     rating_recommendation_service,
     propose_service,
@@ -21,6 +22,12 @@ def find_all_by_key(searchKey: str, client: MongoClient = Depends(get_mongo_clie
     res = search_service.find_all_by_key(searchKey, client)
     print(res)
     return res
+
+
+@router.get("/home")
+def routes_for_home_page(client: MongoClient = Depends(get_mongo_client)):
+    res = home_service.get_routes_for_home(client)
+    return responses.JSONResponse(content=res)
 
 
 @router.get("/place")

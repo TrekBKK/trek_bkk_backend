@@ -19,26 +19,26 @@ def find_all_by_key(searchKey: str, client: MongoClient):
 
     routes = list(routes)
 
-    url = "https://maps.googleapis.com/maps/api/place/details/json?"
+    # url = "https://maps.googleapis.com/maps/api/place/details/json?"
 
     for route in routes:
         route["_id"] = str(route["_id"])
-        waypoints = []
-        for waypoint in route["geocoded_waypoints"]:
-            r = requests.get(
-                url,
-                params={
-                    "place_id": waypoint["place_id"],
-                    "fields": "place_id,name,geometry,types",
-                    "key": API_KEY,
-                },
-            )
+    #     waypoints = []
+    #     for waypoint in route["geocoded_waypoints"]:
+    #         r = requests.get(
+    #             url,
+    #             params={
+    #                 "place_id": waypoint["place_id"],
+    #                 "fields": "place_id,name,geometry,types",
+    #                 "key": API_KEY,
+    #             },
+    #         )
 
-            result = r.json()["result"]
+    #         result = r.json()["result"]
 
-            waypoints.append(result)
+    #         waypoints.append(result)
 
-        route["geocoded_waypoints"] = waypoints
+    #     route["geocoded_waypoints"] = waypoints
 
     return routes
 
@@ -68,26 +68,26 @@ def find_all_by_places(
 
     routes = list(routes)
 
-    url = "https://maps.googleapis.com/maps/api/place/details/json?"
+    # url = "https://maps.googleapis.com/maps/api/place/details/json?"
 
     for route in routes:
         route["_id"] = str(route["_id"])
-        waypoints = []
-        for waypoint in route["geocoded_waypoints"]:
-            r = requests.get(
-                url,
-                params={
-                    "place_id": waypoint["place_id"],
-                    "fields": "place_id,name,geometry,types",
-                    "key": API_KEY,
-                },
-            )
+    #     waypoints = []
+    #     for waypoint in route["geocoded_waypoints"]:
+    #         r = requests.get(
+    #             url,
+    #             params={
+    #                 "place_id": waypoint["place_id"],
+    #                 "fields": "place_id,name,geometry,types",
+    #                 "key": API_KEY,
+    #             },
+    #         )
 
-            result = r.json()["result"]
+    #         result = r.json()["result"]
 
-            waypoints.append(result)
+    #         waypoints.append(result)
 
-        route["geocoded_waypoints"] = waypoints
+    #     route["geocoded_waypoints"] = waypoints
 
     return routes
 
