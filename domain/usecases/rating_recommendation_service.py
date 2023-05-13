@@ -68,6 +68,7 @@ def nearby_search(src_id: str, dest_id: str, stops: int, tags: list[str]):
     payload = {
         "location": f"{str(mid_lat)},{str(mid_lng)}",
         "radius": radius,
+        "type": "point_of_interest",
         "key": API_KEY,
     }
 
