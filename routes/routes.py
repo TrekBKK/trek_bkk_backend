@@ -7,6 +7,7 @@ from domain.models.propose import ProposeInput
 from domain.usecases import (
     generator_service,
     home_service,
+    route_service,
     search_service,
     rating_recommendation_service,
     propose_service,
@@ -83,4 +84,11 @@ def find_proposed_routes(user_id: str, client: MongoClient = Depends(get_mongo_c
 @router.post("/propose")
 def propose_route(data: ProposeInput, client: MongoClient = Depends(get_mongo_client)):
     res = propose_service.propose(data, client)
+    return responses.JSONResponse(content=res)
+
+
+@router.post("/edited")
+async def edited_route(request: Request, client: MongoClient = Depends(get_mongo_client)):
+    data = await request.json()
+    res = route_service.edited(data, client)
     return responses.JSONResponse(content=res)

@@ -9,3 +9,4 @@ class ProposeInput(BaseModel):
     stops: int
     waypoints: list
     polyline: str
+    imagePath: str
