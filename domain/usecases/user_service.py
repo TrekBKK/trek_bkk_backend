@@ -17,7 +17,6 @@ def get_user(user: User, client: MongoClient):
         _user = collection.find_one({"name": user.name, "email": user.email})
         if _user:
             return _user
-        print(user.name, user.photo)
         userData = {"name": user.name, "email": user.email, "photo": user.photo,
                     "preference": {"distance": "",
                                    "stop": "",
@@ -26,6 +25,20 @@ def get_user(user: User, client: MongoClient):
         userData["_id"] = _id
         return userData
 
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+def update_image(data, client: MongoClient):
+    db = client.trekDB
+    col_user = db.user
+    try:
+        _user = col_user.find_one(
+            {"name": data["name"], "email": data["email"]})
+        if _user:
+            col_user.update_one({"_id": _user["_id"]}, {
+                                "$set": {"photo": data["photo"]}})
+        return {"message": "Photo updated successfully"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

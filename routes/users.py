@@ -22,6 +22,13 @@ def getUser(user: User, client: MongoClient = Depends(get_mongo_client)):
     return responses.JSONResponse(content=a)
 
 
+@router.post("/image")
+async def update_image(request: Request, client: MongoClient = Depends(get_mongo_client)):
+    data = await request.json()
+    a = user_service.update_image(data, client)
+    return responses.JSONResponse(content=a)
+
+
 @router.get("/favorite")
 def getFavoriteRoutes(user_id: str, client: MongoClient = Depends(get_mongo_client)):
     a = user_service.get_favorite_routes(user_id, client)
