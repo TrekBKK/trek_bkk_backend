@@ -59,7 +59,15 @@ def generate_route(
     client: MongoClient = Depends(get_mongo_client),
 ):
     if use_algorithm and user_id is not None:
-        res = route_generator_service.recommend_places(
+        # res = route_generator_service.recommend_places_old(
+        #     src_id=src_id,
+        #     dest_id=dest_id,
+        #     stops=stops,
+        #     tags=tags,
+        #     user_id=user_id,
+        #     client=client,
+        # )
+        res = route_generator_service.recommend_places_new(
             src_id=src_id,
             dest_id=dest_id,
             stops=stops,
