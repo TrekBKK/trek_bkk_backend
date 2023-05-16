@@ -23,7 +23,9 @@ def getUser(user: User, client: MongoClient = Depends(get_mongo_client)):
 
 
 @router.post("/image")
-async def update_image(request: Request, client: MongoClient = Depends(get_mongo_client)):
+async def update_image(
+    request: Request, client: MongoClient = Depends(get_mongo_client)
+):
     data = await request.json()
     a = user_service.update_image(data, client)
     return responses.JSONResponse(content=a)
@@ -37,7 +39,9 @@ def getFavoriteRoutes(user_id: str, client: MongoClient = Depends(get_mongo_clie
 
 
 @router.patch("/favorite")
-async def updateRoute(request: Request, client: MongoClient = Depends(get_mongo_client)):
+async def updateRoute(
+    request: Request, client: MongoClient = Depends(get_mongo_client)
+):
     data = await request.json()
     user_id = data["user_id"]
     route_id = data["route_id"]
@@ -46,17 +50,21 @@ async def updateRoute(request: Request, client: MongoClient = Depends(get_mongo_
 
 
 @router.get("/history")
-def getHistoryRoutes(user_id: str, client: MongoClient = Depends(get_mongo_client)):
+def get_history_route(user_id: str, client: MongoClient = Depends(get_mongo_client)):
     a = user_service.get_history_routes(user_id, client)
 
     return responses.JSONResponse(content=a)
 
 
 @router.patch("/history")
-async def getHistoryRoutes(request: Request, client: MongoClient = Depends(get_mongo_client)):
+async def update_history_route(
+    request: Request, client: MongoClient = Depends(get_mongo_client)
+):
     data = await request.json()
-    user = {"user_id": data["user_id"], "route": {
-        "route_id": data["route_id"], "timestamp": data["timestamp"]}}
+    user = {
+        "user_id": data["user_id"],
+        "route": {"route_id": data["route_id"], "timestamp": data["timestamp"]},
+    }
     a = user_service.update_history_routes(user, client)
 
     return responses.JSONResponse(content=a)

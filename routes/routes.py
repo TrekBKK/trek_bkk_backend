@@ -1,5 +1,4 @@
 from fastapi import APIRouter, Depends, Query, responses, Request
-from pydantic import BaseModel
 from pymongo import MongoClient
 
 from adapters.mongodb import get_mongo_client
@@ -21,7 +20,6 @@ router = APIRouter(prefix="/routes")
 @router.get("")
 def find_all_by_key(searchKey: str, client: MongoClient = Depends(get_mongo_client)):
     res = search_service.find_all_by_key(searchKey, client)
-    print(res)
     return res
 
 
@@ -55,10 +53,10 @@ def generate_route(
     stops: int,
     tags: list[str] = Query(default=[]),
     use_algorithm: bool = False,
-    user_id: str | None = None,
+    user_id: str = "",
     client: MongoClient = Depends(get_mongo_client),
 ):
-    if use_algorithm and user_id is not None:
+    if use_algorithm and user_id is not "":
         # res = route_generator_service.recommend_places_old(
         #     src_id=src_id,
         #     dest_id=dest_id,
@@ -96,7 +94,9 @@ def propose_route(data: ProposeInput, client: MongoClient = Depends(get_mongo_cl
 
 
 @router.post("/edited")
-async def edited_route(request: Request, client: MongoClient = Depends(get_mongo_client)):
+async def edited_route(
+    request: Request, client: MongoClient = Depends(get_mongo_client)
+):
     data = await request.json()
     res = route_service.edited(data, client)
     return responses.JSONResponse(content=res)

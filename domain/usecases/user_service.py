@@ -17,10 +17,14 @@ def get_user(user: User, client: MongoClient):
         _user = collection.find_one({"name": user.name, "email": user.email})
         if _user:
             return _user
-        userData = {"name": user.name, "email": user.email, "photo": user.photo,
-                    "preference": {"distance": "",
-                                   "stop": "",
-                                   "type": []}, "favorite_route": [], "history_route": []}
+        userData = {
+            "name": user.name,
+            "email": user.email,
+            "photo": user.photo,
+            "preference": {"distance": "", "stop": "", "type": []},
+            "favorite_route": [],
+            "history_route": [],
+        }
         _id = collection.insert_one(userData).inserted_id
         userData["_id"] = _id
         return userData
@@ -33,11 +37,11 @@ def update_image(data, client: MongoClient):
     db = client.trekDB
     col_user = db.user
     try:
-        _user = col_user.find_one(
-            {"name": data["name"], "email": data["email"]})
+        _user = col_user.find_one({"name": data["name"], "email": data["email"]})
         if _user:
-            col_user.update_one({"_id": _user["_id"]}, {
-                                "$set": {"photo": data["photo"]}})
+            col_user.update_one(
+                {"_id": _user["_id"]}, {"$set": {"photo": data["photo"]}}
+            )
         return {"message": "Photo updated successfully"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -50,7 +54,8 @@ def get_favorite_routes(userId: str, client: MongoClient):
 
     try:
         doc_user = col_user.find_one(
-            {"_id": ObjectId(userId)}, {"favorite_route": 1, "_id": 0})
+            {"_id": ObjectId(userId)}, {"favorite_route": 1, "_id": 0}
+        )
 
         if not doc_user:
             raise HTTPException(status_code=404, detail="User not found")
@@ -88,7 +93,8 @@ def get_history_routes(userId: str, client: MongoClient):
 
     try:
         doc_user = col_user.find_one(
-            {"_id": ObjectId(userId)}, {"history_route": 1, "_id": 0})
+            {"_id": ObjectId(userId)}, {"history_route": 1, "_id": 0}
+        )
         if not doc_user:
             raise HTTPException(status_code=404, detail="User not found")
         history_user = doc_user["history_route"]
@@ -121,9 +127,8 @@ def get_history_routes(userId: str, client: MongoClient):
 
         res = []
         for item in history_user:
-            route_obj = [r for r in routes if r['_id'] == item['route_id']][0]
+            route_obj = [r for r in routes if r["_id"] == item["route_id"]][0]
             res.append({"route": route_obj, "timestamp": item["timestamp"]})
-
         return res
     except HTTPException as e:
         raise e
@@ -136,17 +141,18 @@ def update_favorite_routes(user_id, route_id, client: MongoClient):
     col_user = db.user
 
     try:
-        document = col_user.find_one({'_id': ObjectId(user_id)})
+        document = col_user.find_one({"_id": ObjectId(user_id)})
         if document is None:
             raise HTTPException(status_code=404, detail="User not found")
-        favorite_route = document.get('favorite_route', [])
+        favorite_route = document.get("favorite_route", [])
         if route_id in favorite_route:
             favorite_route.remove(route_id)
         else:
             favorite_route.append(route_id)
-        col_user.update_one({'_id': ObjectId(user_id)}, {
-                            '$set': {'favorite_route': favorite_route}})
-        return {'message': 'Favorite route updated successfully.'}
+        col_user.update_one(
+            {"_id": ObjectId(user_id)}, {"$set": {"favorite_route": favorite_route}}
+        )
+        return {"message": "Favorite route updated successfully."}
     except HTTPException as e:
         raise e
     except Exception as e:
@@ -160,14 +166,12 @@ def update_user_pref(user: User, client: MongoClient):
         preference_data = {
             "distance": user.preference["distance"],
             "stop": user.preference["stop"],
-            "type": user.preference["type"]
+            "type": user.preference["type"],
         }
         query = {"name": user.name}
         update = {"$set": {"preference": preference_data}}
         user = col_user.find_one_and_update(
-            query,
-            update,
-            return_document=ReturnDocument.AFTER
+            query, update, return_document=ReturnDocument.AFTER
         )
         if user:
             return {"message": "Preference updated successfully"}
@@ -181,12 +185,13 @@ def update_history_routes(user, client: MongoClient):
     db = client.trekDB
     col_user = db.user
     try:
-        doc_user = col_user.find_one(
-            {"_id": ObjectId(user["user_id"])})
+        doc_user = col_user.find_one({"_id": ObjectId(user["user_id"])})
 
         if doc_user:
-            col_user.update_one({"_id": ObjectId(user["user_id"])},
-                                {"$push": {"history_route": user["route"]}})
+            col_user.update_one(
+                {"_id": ObjectId(user["user_id"])},
+                {"$push": {"history_route": user["route"]}},
+            )
             return {"message": "history added successfully"}
         else:
             raise HTTPException(status_code=404, detail="User not found")
