@@ -341,8 +341,7 @@ def search_nearby_places(
 
         raw = raw + res.json()["results"]
 
-    if "type" in payload:
-        del payload["type"]
+    payload["type"] = "point_of_interest"
 
     if len(raw) < 60:
         res = requests.get(
@@ -810,17 +809,20 @@ def recommend_places_new(
 
     j = 0
     while len(recommended_places) < 20 and j < len(candidate_places):
-        place_dict = {
-            "place_id": candidate_places[j].place_id,
-            "name": candidate_places[j].name,
-            "geometry": {
-                "location": {
-                    "lat": candidate_places[j].latitude,
-                    "lng": candidate_places[j].longitude,
-                }
-            },
-        }
-        recommended_places.append(place_dict)
+        if candidate_places[j].place_id not in [
+            d["place_id"] for d in recommended_places
+        ]:
+            place_dict = {
+                "place_id": candidate_places[j].place_id,
+                "name": candidate_places[j].name,
+                "geometry": {
+                    "location": {
+                        "lat": candidate_places[j].latitude,
+                        "lng": candidate_places[j].longitude,
+                    }
+                },
+            }
+            recommended_places.append(place_dict)
         j += 1
 
     return recommended_places
